@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "verify:locales": "node script/verify-locales.js"
+    "verify:locales": "node script/verify.js"
   }
 }
