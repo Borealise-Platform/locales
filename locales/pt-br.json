@@ -1,0 +1,627 @@
+{
+  "_meta": {
+    "label": "Português Brasileiro",
+    "flag": "br"
+  },
+  "banner": {
+    "alpha": {
+      "badge": "Alfa Inicial",
+      "text": "Borealise está em desenvolvimento inicial. Espere bugs, funcionalidades ausentes e mudanças significativas."
+    }
+  },
+  "common": {
+    "save": "Salvar",
+    "saving": "Salvando...",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "delete": "Deletar",
+    "edit": "Editar",
+    "loading": "Carregando...",
+    "error": "Um erro ocorreu",
+    "success": "Sucesso",
+    "user": "Usuário"
+  },
+  "titles": {
+    "home": "Início",
+    "login": "Entrar",
+    "register": "Registrar",
+    "dashboard": "Painel",
+    "explore": "Explorar Salas",
+    "room": "Sala",
+    "roomSettings": "Configurações da Sala",
+    "settings": "Configurações",
+    "shop": "Loja de Avatares",
+    "friends": "Amigos"
+  },
+  "auth": {
+    "login": "Entrar",
+    "logout": "Sair",
+    "register": "Registrar",
+    "email": "Email",
+    "password": "Senha",
+    "username": "Nome de Usuário",
+    "confirmPassword": "Confirmar Senha",
+    "back": "voltar",
+    "welcomeTitle": "Bem-vindo ao Borealise",
+    "welcomeSubtitle": "A plataforma de música social onde você faz DJ, descobre e se conecta.",
+    "noAccount": "Não tem uma conta?",
+    "haveAccount": "Já tem uma conta?",
+    "loginWithDiscord": "Entrar com Discord",
+    "or": "ou",
+    "placeholders": {
+      "username": "Digite seu nome de usuário",
+      "usernameOrEmail": "Digite seu nome de usuário ou e-mail",
+      "email": "Digite seu e-mail",
+      "password": "Digite sua senha",
+      "createPassword": "Crie uma senha",
+      "confirmPassword": "Confirme sua senha"
+    },
+    "errors": {
+      "required": "Este campo é obrigatório",
+      "invalidEmail": "Por favor, digite um endereço de email válido",
+      "passwordMismatch": "As senhas não correspondem",
+      "minLength": "Deve ter pelo menos {min} caracteres",
+      "maxLength": "Deve ter no máximo {max} caracteres",
+      "fillAllFields": "Por favor, preencha todos os campos",
+      "loginFailed": "Falha no login. Tente novamente."
+    }
+  },
+  "errors": {
+    "UNKNOWN_ERROR": "Um erro desconhecido ocorreu",
+    "VALIDATION_ERROR": "Entrada inválida fornecida",
+    "NOT_FOUND": "Recurso não encontrado",
+    "FORBIDDEN": "Acesso negado",
+    "RATE_LIMITED": "Muitas requisições. Tente novamente mais tarde.",
+    "SERVER_ERROR": "Erro do servidor. Tente novamente mais tarde.",
+    "NETWORK_ERROR": "Não foi possível conectar ao servidor. Verifique sua conexão.",
+
+    "AUTH_INVALID_CREDENTIALS": "Credenciais inválidas",
+    "AUTH_INVALID_EMAIL": "Por favor, digite um endereço de email válido",
+    "AUTH_INVALID_USERNAME": "Nome de usuário deve ter 3-32 caracteres, apenas letras, números e sublinhados",
+    "AUTH_INVALID_PASSWORD": "Senha deve ter 8-128 caracteres",
+    "AUTH_EMAIL_EXISTS": "Este email já está registrado",
+    "AUTH_USERNAME_EXISTS": "Este nome de usuário já está em uso",
+    "AUTH_ACCOUNT_DISABLED": "Sua conta foi desabilitada",
+    "AUTH_TOKEN_REQUIRED": "Autenticação necessária",
+    "AUTH_TOKEN_INVALID": "Sua sessão expirou. Por favor, faça login novamente.",
+    "AUTH_TOKEN_EXPIRED": "Sua sessão expirou. Por favor, faça login novamente.",
+    "AUTH_REFRESH_TOKEN_REQUIRED": "Token de atualização necessário",
+    "AUTH_REFRESH_TOKEN_INVALID": "Token de atualização inválido",
+    "AUTH_REFRESH_TOKEN_REVOKED": "Sua sessão foi revogada. Por favor, faça login novamente.",
+    "AUTH_LOGIN_REQUIRED": "Por favor, digite seu nome de usuário/email e senha",
+    "AUTH_REGISTRATION_FAILED": "Falha no registro. Tente novamente.",
+    "AUTH_LOGIN_FAILED": "Falha no login. Tente novamente.",
+    "AUTH_LOGOUT_FAILED": "Falha ao sair. Tente novamente.",
+
+    "USER_NOT_FOUND": "Usuário não encontrado",
+    "USER_UPDATE_FAILED": "Falha ao atualizar perfil",
+    "USER_DELETE_FAILED": "Falha ao deletar conta",
+    "USER_INVALID_DISPLAY_NAME": "Nome de exibição deve ter 1-64 caracteres",
+    "USER_INVALID_BIO": "Bio deve ter 500 caracteres ou menos",
+
+    "PERMISSION_DENIED": "Você não tem permissão para fazer isto",
+    "PERMISSION_ADMIN_REQUIRED": "Acesso de administrador necessário",
+    "PERMISSION_MOD_REQUIRED": "Acesso de moderador necessário",
+    "PERMISSION_CANNOT_MODIFY_SELF": "Você não pode realizar esta ação em si mesmo",
+    "PERMISSION_CANNOT_MODIFY_HIGHER_ROLE": "Você não pode modificar um usuário com cargo igual ou superior",
+
+    "ROLE_INVALID": "Cargo inválido especificado",
+
+    "ROOM_NOT_FOUND": "Sala não encontrada",
+    "ROOM_SLUG_EXISTS": "Esta URL da sala já está em uso",
+    "ROOM_SLUG_INVALID": "URL da sala deve ter 3-32 caracteres, apenas letras minúsculas, números e hífens",
+    "ROOM_NAME_INVALID": "Nome da sala deve ter 3-50 caracteres",
+    "ROOM_CREATE_FAILED": "Falha ao criar sala. Tente novamente.",
+    "ROOM_JOIN_FAILED": "Falha ao entrar na sala. Tente novamente.",
+    "ROOM_LEAVE_FAILED": "Falha ao sair da sala. Tente novamente.",
+
+    "PLAYLIST_NOT_FOUND": "Playlist não encontrada",
+    "PLAYLIST_CREATE_FAILED": "Falha ao criar playlist",
+    "PLAYLIST_UPDATE_FAILED": "Falha ao atualizar playlist",
+    "PLAYLIST_DELETE_FAILED": "Falha ao deletar playlist",
+    "PLAYLIST_ITEM_ADD_FAILED": "Falha ao adicionar item à playlist",
+    "PLAYLIST_ITEM_REMOVE_FAILED": "Falha ao remover item da playlist",
+    "PLAYLIST_ITEM_LIMIT_REACHED": "Playlist atingiu o número máximo de itens",
+    "PLAYLIST_ACTIVATE_FAILED": "Falha ao ativar playlist",
+
+    "IMPORT_INVALID_URL": "URL de playlist inválida",
+    "IMPORT_PLAYLIST_NOT_FOUND": "Playlist externa não encontrada",
+    "IMPORT_PLAYLIST_PRIVATE": "Esta playlist é privada ou indisponível",
+    "IMPORT_FETCH_FAILED": "Falha ao buscar playlist. Tente novamente.",
+    "IMPORT_NO_TRACKS": "Nenhuma música encontrada na playlist",
+    "IMPORT_UNSUPPORTED_SOURCE": "Fonte de playlist não suportada",
+
+    "BOOTH_NOT_IN_WAITLIST": "Você não está na fila",
+    "BOOTH_ALREADY_IN_WAITLIST": "Você já está na fila",
+    "BOOTH_NO_DJ": "Não há DJ tocando no momento",
+    "BOOTH_NO_ACTIVE_PLAYLIST": "Você precisa de uma playlist ativa para entrar na fila",
+    "BOOTH_PLAYLIST_EMPTY": "Sua playlist ativa está vazia",
+    "BOOTH_WAITLIST_FULL": "A fila está cheia",
+    "BOOTH_WAITLIST_LOCKED": "A fila está trancada",
+
+    "WAITLIST_ALREADY_IN": "Você já está na fila",
+    "WAITLIST_ALREADY_DJING": "Você está tocando no momento! Aguarde até sua vez terminar.",
+    "WAITLIST_LOCKED": "A fila está trancada",
+    "WAITLIST_NO_PLAYLIST": "Você precisa de uma playlist ativa para entrar na fila",
+    "WAITLIST_EMPTY_PLAYLIST": "Sua playlist ativa está vazia",
+    "WAITLIST_NOT_IN": "Você não está na fila",
+
+    "VOTE_ALREADY_VOTED": "Você já votou nesta música",
+    "VOTE_CANNOT_VOTE_OWN": "Você não pode votar em sua própria música",
+
+    "CHAT_MESSAGE_TOO_LONG": "Mensagem muito longa",
+    "CHAT_RATE_LIMITED": "Você está enviando mensagens muito rapidamente"
+  },
+  "booth": {
+    "skip": {
+      "title": "Opções de Pular",
+      "message": "Qual ação você deseja realizar?",
+      "skipSong": "Pular para Próxima Música",
+      "leaveBooth": "Sair da Cabine de DJ",
+      "skipHint": "Pule para a próxima música para continuar tocando, ou saia da cabine para deixar outros tocarem."
+    },
+    "grab": {
+      "title": "Pegar Música",
+      "message": "Escolha uma playlist para adicionar esta música:",
+      "active": "Ativa"
+    }
+  },
+  "notifications": {
+    "auth": {
+      "loginSuccess": "Bem-vindo de volta, {username}!",
+      "registerSuccess": "Conta criada com sucesso! Bem-vindo ao Borealise.",
+      "logoutSuccess": "Você foi desconectado",
+      "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente."
+    },
+    "room": {
+      "joinSuccess": "Entrou em {roomName}",
+      "leaveSuccess": "Saiu da sala",
+      "createSuccess": "Sala \"{roomName}\" criada com sucesso"
+    },
+    "playlist": {
+      "createSuccess": "Playlist \"{name}\" criada",
+      "deleteSuccess": "Playlist deletada",
+      "updateSuccess": "Playlist atualizada",
+      "activateSuccess": "Playlist \"{name}\" agora está ativa",
+      "itemAdded": "Adicionado à playlist",
+      "itemRemoved": "Removido da playlist",
+      "importSuccess": "Importadas {count} músicas",
+      "importPartial": "Importadas {imported} músicas ({skipped} puladas, {failed} falhadas)",
+      "importAllDuplicates": "Todas as músicas já estão em sua playlist"
+    },
+    "booth": {
+      "joinedWaitlist": "Você entrou na fila de espera",
+      "leftWaitlist": "Você saiu da fila de espera",
+      "nowPlaying": "Você está tocando agora!",
+      "skipped": "Sua vez foi pulada"
+    },
+    "vote": {
+      "grabbed": "Música adicionada à sua playlist"
+    },
+    "connection": {
+      "connected": "Conectado ao servidor",
+      "disconnected": "Desconectado do servidor",
+      "reconnecting": "Reconectando...",
+      "reconnected": "Reconectado ao servidor"
+    },
+    "clipboard": {
+      "copied": "Copiado para a área de transferência"
+    }
+  },
+  "rooms": {
+    "create": {
+      "title": "Criar Sala",
+      "submit": "Criar Sala",
+      "name": "Nome da Sala",
+      "namePlaceholder": "Minha Sala Incrível",
+      "slug": "URL da Sala",
+      "slugPlaceholder": "minha-sala-incrivel",
+      "slugHint": "Esta será a URL da sua sala. Apenas letras minúsculas, números e hífens.",
+      "description": "Descrição",
+      "descriptionPlaceholder": "Do que é sua sala? Que tipo de música você tocará?",
+      "private": "Sala Privada",
+      "privateDesc": "Apenas usuários convidados podem entrar",
+      "nsfw": "Conteúdo NSFW",
+      "nsfwDesc": "Sala pode conter conteúdo adulto",
+      "errors": {
+        "nameTooShort": "Nome deve ter pelo menos 3 caracteres",
+        "nameTooLong": "Nome deve ter 50 caracteres ou menos",
+        "slugTooShort": "URL deve ter pelo menos 3 caracteres",
+        "slugTooLong": "URL deve ter 32 caracteres ou menos",
+        "slugInvalid": "URL deve começar e terminar com uma letra ou número",
+        "failed": "Falha ao criar sala. Tente novamente."
+      }
+    },
+    "leave": {
+      "title": "Sair da Sala?",
+      "message": "Tem certeza que deseja sair de {roomName}?",
+      "joining": "Você entrará em {roomName}.",
+      "confirm": "Sair da Sala"
+    }
+  },
+  "nav": {
+    "home": "Início",
+    "settings": "Configurações",
+    "profile": "Perfil",
+    "about": "Sobre",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "discord": "Discord",
+    "haveAccount": "Tem uma conta?"
+  },
+  "sidebar": {
+    "dashboard": "Painel",
+    "explore": "Explorar",
+    "playlists": "Playlists",
+    "shop": "Loja de Avatares",
+    "settings": "Configurações",
+    "logout": "Sair",
+    "expand": "Expandir barra lateral",
+    "friends": "Amigos",
+    "room": {
+      "stage": "Palco",
+      "waitlist": "Fila de Espera",
+      "users": "Usuários",
+      "history": "Histórico",
+      "settings": "Configurações da Sala"
+    }
+  },
+  "consent": {
+    "message": "Usamos cookies para aprimorar sua experiência. Ao continuar visitando este site, você concorda com nosso uso de cookies.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Política de Cookies"
+  },
+  "footer": {
+    "tagline": "Música é melhor em companhia. Junte-se a salas, compartilhe músicas e conecte-se com amantes de música do mundo todo.",
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub"
+    },
+    "sections": {
+      "product": {
+        "title": "Produto",
+        "rooms": "Explorar Salas",
+        "features": "Funcionalidades",
+        "pricing": "Preços",
+        "download": "Baixar"
+      },
+      "company": {
+        "title": "Empresa",
+        "blog": "Blog",
+        "careers": "Carreiras",
+        "contact": "Contato"
+      },
+      "resources": {
+        "title": "Recursos",
+        "help": "Central de Ajuda",
+        "docs": "Documentação",
+        "status": "Status do Sistema"
+      },
+      "legal": {
+        "title": "Legal",
+        "cookies": "Política de Cookies",
+        "licenses": "Licenças"
+      }
+    }
+  },
+  "settings": {
+    "tabs": {
+      "account": "Conta",
+      "audio": "Áudio",
+      "notifications": "Notificações",
+      "appearance": "Aparência",
+      "subscription": "Assinatura"
+    },
+    "account": {
+      "title": "Configurações da Conta",
+      "username": "Nome de Usuário",
+      "usernameHint": "Nome de usuário não pode ser alterado",
+      "displayName": "Nome de Exibição",
+      "displayNamePlaceholder": "Como devemos chamá-lo?",
+      "email": "Email",
+      "emailHint": "Entre em contato com o suporte para alterar seu email",
+      "bio": "Bio",
+      "bioPlaceholder": "Fale sobre você...",
+      "saveSuccess": "Perfil atualizado com sucesso",
+      "logout": "Sair",
+      "logoutConfirm": "Tem certeza que deseja sair?"
+    },
+    "audio": {
+      "title": "Configurações de Áudio",
+      "masterVolume": "Volume Principal",
+      "quality": "Qualidade de Áudio",
+      "qualityLow": "Baixa (128kbps)",
+      "qualityMedium": "Média (256kbps)",
+      "qualityHigh": "Alta (320kbps)",
+      "autoPlay": "Reprodução automática ao entrar em salas"
+    },
+    "notifications": {
+      "title": "Configurações de Notificações",
+      "chatMentions": "Menções no chat",
+      "mentionSound": "Reproduzir som ao ser mencionado",
+      "songGrabs": "Músicas puxadas",
+      "waitlistUpdates": "Atualizações da fila de espera"
+    },
+    "appearance": {
+      "title": "Aparência",
+      "showTimestamps": "Mostrar timestamps do chat",
+      "enlargedVideo": "Player de vídeo ampliado por padrão"
+    },
+    "subscription": {
+      "title": "Borealise Plus",
+      "activePlan": "Plano Ativo",
+      "noPlan": "Sem assinatura ativa",
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "yearlyBadge": "Economize 20%",
+      "renewsOn": "Renova em {date}",
+      "cancelsOn": "Cancela em {date}",
+      "upgradeTitle": "Borealise Plus",
+      "upgradeSubtitle": "Desbloqueie avatares exclusivos, uma insígnia de apoiador e mais.",
+      "choosePlan": "Escolha um plano",
+      "paymentTitle": "Detalhes de Pagamento",
+      "payButton": "Assinar",
+      "manageButton": "Gerenciar Faturamento",
+      "backToPlan": "Voltar",
+      "perMonth": "/ mês",
+      "perYear": "/ ano",
+      "loadError": "Falha ao carregar status de assinatura.",
+      "intentError": "Não foi possível iniciar o pagamento. Tente novamente.",
+      "paymentError": "Pagamento falhou. Verifique seus detalhes.",
+      "portalError": "Falha ao abrir portal de faturamento. Tente novamente.",
+      "perks": {
+        "avatars": "Avatares premium exclusivos",
+        "badge": "Insígnia de apoiador no seu perfil",
+        "future": "Acesso antecipado a novas funcionalidades"
+      }
+    }
+  },
+  "stage": {
+    "waitingForDJ": "Aguardando DJ...",
+    "enlargeVideo": "Ampliar vídeo",
+    "minimizeVideo": "Minimizar vídeo"
+  },
+  "chat": {
+    "title": "Chat ao Vivo",
+    "placeholder": "Envie uma mensagem...",
+    "mentionUser": "Mencionar usuário",
+    "tabChat": "Chat",
+    "tabWaitlist": "Fila",
+    "tabUsers": "Usuários",
+    "empty": "Nenhuma mensagem ainda. Diga olá!",
+    "waitlistEmpty": "A fila está vazia.",
+    "usersEmpty": "Mais ninguém está aqui ainda.",
+    "nowPlaying": "Tocando Agora",
+    "searchEmoji": "Buscar emoji...",
+    "paused": "Chat pausado — role para baixo para retomar"
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo de volta,",
+    "subtitle": "Pronto para descobrir alguma música?",
+    "exploreRooms": "Explorar Salas",
+    "createRoom": "Criar Sala",
+    "featuredRooms": "Salas em Destaque",
+    "seeAll": "Ver tudo",
+    "yourRooms": "Suas Salas",
+    "noRooms": "Você ainda não entrou em nenhuma sala",
+    "findRooms": "Encontre salas para entrar",
+    "recentActivity": "Atividade Recente",
+    "listening": "ouvindo"
+  },
+  "explore": {
+    "searchPlaceholder": "Buscar salas...",
+    "noRoomsFound": "Nenhuma sala encontrada",
+    "tryDifferentSearch": "Tente uma busca ou filtro diferente",
+    "live": "AO VIVO",
+    "filters": {
+      "all": "Todas",
+      "electronic": "Eletrônica",
+      "chill": "Chill",
+      "hiphop": "Hip Hop",
+      "rock": "Rock",
+      "pop": "Pop",
+      "lofi": "Lo-Fi",
+      "music": "Música"
+    }
+  },
+  "playlists": {
+    "title": "Minhas Playlists",
+    "newPlaylist": "Nova Playlist",
+    "loading": "Carregando playlists...",
+    "noPlaylists": "Nenhuma playlist ainda",
+    "createFirst": "Crie sua primeira playlist para começar a adicionar música",
+    "selectPlaylist": "Selecione uma playlist para ver seu conteúdo",
+    "songCount": "{count} músicas",
+    "active": "Ativa",
+    "setActive": "Definir como Ativa",
+    "shuffle": "Embaralhar",
+    "addSongs": "Adicionar Músicas",
+    "import": "Importar",
+    "searchPlaceholder": "Buscar no YouTube ou SoundCloud...",
+    "searching": "Buscando...",
+    "noSongs": "Nenhuma música nesta playlist",
+    "clickAddSongs": "Clique em \"Adicionar Músicas\" para buscar e adicionar música",
+    "noResults": "Nenhum resultado encontrado",
+    "unknownArtist": "Artista Desconhecido",
+    "createPlaylist": "Criar Playlist",
+    "playlistName": "Nome da Playlist",
+    "playlistNamePlaceholder": "Minha Playlist Incrível",
+    "create": "Criar",
+    "rename": "Renomear",
+    "renamePlaylist": "Renomear Playlist",
+    "newName": "Novo Nome",
+    "confirmDelete": "Deletar \"{name}\"? Isto não pode ser desfeito."
+  },
+  "player": {
+    "noPlaylist": "Nenhuma Playlist",
+    "noTracksQueued": "Nenhuma música na fila",
+    "next": "Próxima:",
+    "joinWaitlist": "Entrar na Fila",
+    "leaveWaitlist": "Sair da Fila",
+    "skip": "Pular",
+    "isPlaying": "está tocando:",
+    "estimatedWait": "Est. espera: {time}"
+  },
+  "home": {
+    "hero": {
+      "title": "Música é melhor",
+      "titleBreak": "em companhia.",
+      "subtitle": "Junte-se a salas, reveze-se como DJ, descubra novas músicas e conecte-se com pessoas que compartilham seu gosto. A experiência de escuta social, renascida.",
+      "cta": "Começar Gratuitamente",
+      "learnMore": "Saber Mais"
+    },
+    "features": {
+      "title": "Lembra quando a música era social?",
+      "subtitle": "Borealise traz de volta a magia das experiências musicais compartilhadas. Crie ou junte-se a salas, reveze-se tocando músicas, converse com amantes de música e descubra sua próxima música favorita através de conexão humana real.",
+      "rooms": {
+        "title": "Salas Comunitárias",
+        "description": "Junte-se a salas temáticas ou crie a sua própria. De rock indie a lo-fi beats, encontre sua turma e compartilhe a música que você ama."
+      },
+      "dj": {
+        "title": "Entre na Cabine de DJ",
+        "description": "Coloque na fila, pegue os decks e toque para a sala. Receba reações em tempo real com woots e mehs da sua audiência."
+      },
+      "chat": {
+        "title": "Chat ao Vivo",
+        "description": "Reaja a músicas em tempo real, compartilhe seus pensamentos, faça amigos e construa conexões duradouras em torno de música."
+      }
+    },
+    "howItWorks": {
+      "title": "Como funciona",
+      "subtitle": "Começar é simples. Junte-se à comunidade em segundos.",
+      "step1": {
+        "title": "Criar Conta",
+        "description": "Registre-se gratuitamente e customize seu avatar."
+      },
+      "step2": {
+        "title": "Encontrar uma Sala",
+        "description": "Explore salas por gênero ou crie sua própria comunidade."
+      },
+      "step3": {
+        "title": "Crie Playlists",
+        "description": "Adicione músicas do YouTube e SoundCloud à sua playlist."
+      },
+      "step4": {
+        "title": "E vire um DJ",
+        "description": "Entre na fila de espera, toque suas músicas e ganhe reconhecimento."
+      }
+    },
+    "why": {
+      "title": "Construído para a comunidade,",
+      "titleBreak": "pela comunidade.",
+      "text1": "Crescemos em plataformas como plug.dj e turntable.fm. Quando elas fecharam, perdemos mais que um website - perdemos nossas comunidades, nossas amizades e nossas jornadas musicais compartilhadas.",
+      "text2": "Borealise é nossa resposta. Uma plataforma moderna e confiável construída com a tecnologia mais recente para garantir que permaneça online. Sem anúncios interrompendo sua vibe. Sem algoritmos decidindo o que você ouve. Apenas você, seus amigos e a música.",
+      "features": {
+        "free": "Gratuito para sempre",
+        "integration": "Integração com YouTube e SoundCloud",
+        "avatars": "Avatares e perfis customizáveis",
+        "mobile": "Design amigável para mobile"
+      },
+      "preview": "Preview em breve"
+    },
+    "cta": {
+      "title": "Pronto para redescobrir música?",
+      "subtitle": "Junte-se a milhares de amantes de música já compartilhando suas músicas favoritas. Sua próxima música favorita está esperando.",
+      "button": "Junte-se ao Borealise Hoje"
+    },
+    "footer": {
+      "copyright": "Borealise. Todos os direitos reservados."
+    }
+  },
+  "shop": {
+    "title": "Loja de Avatares",
+    "level": "Nível",
+    "free": "Gratuito",
+    "unlocked": "Desbloqueado",
+    "equipped": "Equipado",
+    "clickToUnlock": "Clique para desbloquear",
+    "levelRequired": "Nível {level} necessário",
+    "subscriptionRequired": "Assinatura necessária",
+    "freeAvatars": "Avatares Gratuitos",
+    "freeAvatarsDesc": "Esses avatares estão disponíveis para todos gratuitamente.",
+    "premiumAvatars": "Avatares Premium",
+    "premiumAvatarsDesc": "Avatares exclusivos disponíveis para assinantes.",
+    "unlockTitle": "Desbloquear Avatar",
+    "unlockLevelDesc": "Desbloqueie {id} atingindo o nível {level}.",
+    "unlockSubDesc": "Desbloqueie {id} com uma assinatura ativa.",
+    "unlock": "Desbloquear",
+    "unlocking": "Desbloqueando...",
+    "tabs": {
+      "free": "Gratuito",
+      "level": "Nível",
+      "subscription": "Assinatura"
+    }
+  },
+  "roomSettings": {
+    "title": "Configurações da Sala",
+    "notHost": "Apenas o anfitrião ou co-anfitrião podem editar as configurações da sala.",
+    "sectionGeneral": "Geral",
+    "sectionAccess": "Acesso",
+    "sectionWaitlist": "Fila de Espera",
+    "fieldName": "Nome da Sala",
+    "fieldNamePlaceholder": "Minha Sala Incrível",
+    "fieldDescription": "Descrição",
+    "fieldDescriptionPlaceholder": "Do que é sua sala?",
+    "fieldWelcome": "Mensagem de Boas-vindas",
+    "fieldWelcomePlaceholder": "Bem-vindo à sala!",
+    "fieldWelcomeHint": "Mostrado aos usuários quando eles entram na sala.",
+    "fieldMinChatLevel": "Nível Mínimo de Chat",
+    "fieldMinChatLevelHint": "Usuários abaixo deste nível não podem enviar mensagens. Defina como 0 para permitir todos.",
+    "fieldPrivate": "Sala Privada",
+    "fieldPrivateDesc": "Apenas usuários convidados podem entrar.",
+    "fieldNsfw": "Conteúdo NSFW",
+    "fieldNsfwDesc": "Sala pode conter conteúdo adulto.",
+    "fieldWaitlistLocked": "Trancar Fila de Espera",
+    "fieldWaitlistLockedDesc": "Impedir que novos usuários entrem na fila de DJ.",
+    "fieldWaitlistCycle": "Ciclar Fila de Espera",
+    "fieldWaitlistCycleDesc": "DJs são movidos para o final da fila após sua vez.",
+    "saveSuccess": "Configurações da sala salvas."
+  },
+  "roles": {
+    "host": "Anfitrião",
+    "cohost": "Co-anfitrião",
+    "manager": "Gestor",
+    "bouncer": "Segurança",
+    "residentDJ": "DJ Residente",
+    "user": "Usuário"
+  },
+  "globalRoles": {
+    "owner": "Proprietário",
+    "admin": "Administrador",
+    "moderator": "Moderador"
+  },
+  "userCard": {
+    "viewProfile": "Ver Perfil",
+    "mention": "Mencionar",
+    "addFriend": "Adicionar Amigo",
+    "cancelRequest": "Cancelar Solicitação",
+    "acceptRequest": "Aceitar Solicitação",
+    "removeFriend": "Remover Amigo",
+    "currentlyDJing": "Tocando Agora",
+    "newSubscriber": "Assinante",
+    "subscriber1Month": "Assinante por 1 mês",
+    "subscriberNMonths": "Assinante por {n} meses"
+  },
+  "friends": {
+    "title": "Amigos",
+    "search": "Buscar por nome de usuário...",
+    "noFriends": "Nenhum amigo ainda",
+    "noFriendsHint": "Busque por usuários e envie solicitações de amizade!",
+    "pendingRequests": "Solicitações Pendentes",
+    "pendingSent": "Solicitações Enviadas",
+    "noPending": "Nenhuma solicitação pendente",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "cancel": "Cancelar",
+    "remove": "Remover",
+    "addFriend": "Adicionar Amigo",
+    "searchPlaceholder": "Encontre um usuário por nome de usuário...",
+    "notFound": "Usuário não encontrado",
+    "alreadyFriends": "Já é amigo",
+    "requestSent": "Solicitação enviada",
+    "requestReceived": "Deseja ser seu amigo"
+  }
+}
