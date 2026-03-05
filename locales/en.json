@@ -402,7 +402,8 @@
     "appearance": {
       "title": "Appearance",
       "showTimestamps": "Show chat timestamps",
-      "enlargedVideo": "Enlarged video player by default"
+      "enlargedVideo": "Enlarged video player by default",
+      "language": "Language"
     },
     "subscription": {
       "title": "Borealise Plus",

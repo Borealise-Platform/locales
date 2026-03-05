@@ -468,7 +468,8 @@
     "appearance": {
       "title": "Wygląd",
       "showTimestamps": "Pokaż znaczniki czasu na czacie",
-      "enlargedVideo": "Domyślnie powiększony odtwarzacz wideo"
+      "enlargedVideo": "Domyślnie powiększony odtwarzacz wideo",
+      "language": "Język"
     },
     "subscription": {
       "title": "Borealise Plus",
