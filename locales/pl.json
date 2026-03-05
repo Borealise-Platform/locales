@@ -36,6 +36,7 @@
     "room": "Pokój",
     "roomSettings": "Ustawienia pokoju",
     "roomHistory": "Historia utworów",
+    "roomModeration": "Moderacja",
     "settings": "Ustawienia",
     "shop": "Sklep z awatarami",
     "friends": "Znajomi"
@@ -419,7 +420,8 @@
       "waitlist": "Kolejka",
       "users": "Użytkownicy",
       "history": "Historia",
-      "settings": "Ustawienia pokoju"
+      "settings": "Ustawienia pokoju",
+      "moderation": "Moderacja"
     }
   },
   "settings": {
@@ -517,7 +519,9 @@
     "usersEmpty": "Nikt tu jeszcze nie jest.",
     "nowPlaying": "Teraz gra",
     "searchEmoji": "Szukaj emoji...",
-    "paused": "Czat wstrzymany — przewiń w dół, aby wznowić"
+    "paused": "Czat wstrzymany — przewiń w dół, aby wznowić",
+    "muted": "Masz wyciszenie",
+    "mutedUntil": "Wyciszenie zakończy się za {time}"
   },
   "dashboard": {
     "welcome": "Witaj ponownie,",
@@ -654,6 +658,54 @@
     "bouncer": "Ochroniarz",
     "residentDJ": "Rezydent DJ",
     "user": "Użytkownik"
+  },
+  "roomModeration": {
+    "title": "Moderacja",
+    "notStaff": "Tylko personel może korzystać z narzędzi moderacji.",
+    "sectionBans": "Bany",
+    "sectionStaff": "Personel i role",
+    "sectionUsers": "Użytkownicy",
+    "bansEmpty": "Żaden użytkownik nie jest obecnie zbanowany.",
+    "staffEmpty": "Brak członków personelu.",
+    "usersEmpty": "W pokoju nie ma użytkowników.",
+    "unban": "Odbanuj",
+    "unbanning": "Odbanowywanie...",
+    "ban": "Zbanuj",
+    "banning": "Banowanie...",
+    "kick": "Wyrzuć",
+    "kicking": "Wyrzucanie...",
+    "mute": "Wycisz",
+    "muting": "Wyciszanie...",
+    "unmute": "Odcisz",
+    "unmuteAction": "Odcisz",
+    "unmuting": "Odciszanie...",
+    "setRole": "Ustaw rolę",
+    "roleChanged": "Rola zaktualizowana.",
+    "banSuccess": "{username} został zbanowany.",
+    "unbanSuccess": "{username} został odbanowany.",
+    "kickSuccess": "{username} został wyrzucony.",
+    "muteSuccess": "{username} został wyciszony.",
+    "unmuteSuccess": "{username} został odciszony.",
+    "confirmBan": "Zbanować {username}?",
+    "confirmKick": "Wyrzucić {username}?",
+    "confirmMute": "Wyciszyć {username}?",
+    "confirmUnban": "Odbanować {username}?",
+    "confirmUnmute": "Odciszyć {username}?",
+    "reasonLabel": "Powód (opcjonalnie)",
+    "reasonPlaceholder": "Naruszenie zasad, spam...",
+    "durationLabel": "Czas trwania (minuty)",
+    "durationHint": "Pozostaw puste dla działania permanentnego.",
+    "permanent": "Permanentny",
+    "expires": "Wygasa {date}",
+    "bannedBy": "Zbanowany przez {username}",
+    "mutedLabel": "Wyciszony",
+    "loadError": "Nie udało się załadować danych moderacji.",
+    "retry": "Spróbuj ponownie",
+    "tabBans": "Bany",
+    "tabStaff": "Personel",
+    "tabUsers": "Użytkownicy",
+    "selectRole": "Wybierz rolę",
+    "isMuted": "Wyciszony"
   },
   "globalRoles": {
     "owner": "Właściciel",

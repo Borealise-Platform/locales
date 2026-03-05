@@ -36,6 +36,7 @@
     "room": "Room",
     "roomSettings": "Room Settings",
     "roomHistory": "Song History",
+    "roomModeration": "Moderation",
     "settings": "Settings",
     "shop": "Avatar Shop",
     "friends": "Friends"
@@ -312,7 +313,8 @@
       "waitlist": "Waitlist",
       "users": "Users",
       "history": "History",
-      "settings": "Room Settings"
+      "settings": "Room Settings",
+      "moderation": "Moderation"
     }
   },
   "consent": {
@@ -451,7 +453,9 @@
     "usersEmpty": "No one else is here yet.",
     "nowPlaying": "Now Playing",
     "searchEmoji": "Search emoji...",
-    "paused": "Chat paused — scroll down to resume"
+    "paused": "Chat paused — scroll down to resume",
+    "muted": "You are muted",
+    "mutedUntil": "Unmuted in {time}"
   },
   "dashboard": {
     "welcome": "Welcome back,",
@@ -654,6 +658,54 @@
     "bouncer": "Bouncer",
     "residentDJ": "Resident DJ",
     "user": "User"
+  },
+  "roomModeration": {
+    "title": "Moderation",
+    "notStaff": "Only staff can access moderation tools.",
+    "sectionBans": "Bans",
+    "sectionStaff": "Staff & Roles",
+    "sectionUsers": "Users",
+    "bansEmpty": "No users are currently banned.",
+    "staffEmpty": "No staff members yet.",
+    "usersEmpty": "No users in the room.",
+    "unban": "Unban",
+    "unbanning": "Unbanning...",
+    "ban": "Ban",
+    "banning": "Banning...",
+    "kick": "Kick",
+    "kicking": "Kicking...",
+    "mute": "Mute",
+    "muting": "Muting...",
+    "unmute": "Unmute",
+    "unmuteAction": "Unmute",
+    "unmuting": "Unmuting...",
+    "setRole": "Set Role",
+    "roleChanged": "Role updated.",
+    "banSuccess": "{username} has been banned.",
+    "unbanSuccess": "{username} has been unbanned.",
+    "kickSuccess": "{username} has been kicked.",
+    "muteSuccess": "{username} has been muted.",
+    "unmuteSuccess": "{username} has been unmuted.",
+    "confirmBan": "Ban {username}?",
+    "confirmKick": "Kick {username}?",
+    "confirmMute": "Mute {username}?",
+    "confirmUnban": "Unban {username}?",
+    "confirmUnmute": "Unmute {username}?",
+    "reasonLabel": "Reason (optional)",
+    "reasonPlaceholder": "Rule violation, spam...",
+    "durationLabel": "Duration (minutes)",
+    "durationHint": "Leave empty for a permanent action.",
+    "permanent": "Permanent",
+    "expires": "Expires {date}",
+    "bannedBy": "Banned by {username}",
+    "mutedLabel": "Muted",
+    "loadError": "Failed to load moderation data.",
+    "retry": "Try again",
+    "tabBans": "Bans",
+    "tabStaff": "Staff",
+    "tabUsers": "Users",
+    "selectRole": "Select a role",
+    "isMuted": "Muted"
   },
   "globalRoles": {
     "owner": "Owner",

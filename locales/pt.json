@@ -36,6 +36,7 @@
     "room": "Sala",
     "roomSettings": "Configurações da Sala",
     "roomHistory": "Histórico de Músicas",
+    "roomModeration": "Moderação",
     "settings": "Configurações",
     "shop": "Loja de Avatares",
     "friends": "Amigos"
@@ -312,7 +313,8 @@
       "waitlist": "Fila de Espera",
       "users": "Usuários",
       "history": "Histórico",
-      "settings": "Configurações da Sala"
+      "settings": "Configurações da Sala",
+      "moderation": "Moderação"
     }
   },
   "consent": {
@@ -451,7 +453,9 @@
     "usersEmpty": "Mais ninguém está aqui ainda.",
     "nowPlaying": "Tocando Agora",
     "searchEmoji": "Buscar emoji...",
-    "paused": "Chat pausado — role para baixo para retomar"
+    "paused": "Chat pausado — role para baixo para retomar",
+    "muted": "Você está silenciado",
+    "mutedUntil": "Silêncio expira em {time}"
   },
   "dashboard": {
     "welcome": "Bem-vindo de volta,",
@@ -654,6 +658,54 @@
     "bouncer": "Segurança",
     "residentDJ": "DJ Residente",
     "user": "Usuário"
+  },
+  "roomModeration": {
+    "title": "Moderação",
+    "notStaff": "Apenas a equipe pode acessar as ferramentas de moderação.",
+    "sectionBans": "Banimentos",
+    "sectionStaff": "Equipe e Cargos",
+    "sectionUsers": "Usuários",
+    "bansEmpty": "Nenhum usuário está banido no momento.",
+    "staffEmpty": "Nenhum membro da equipe ainda.",
+    "usersEmpty": "Nenhum usuário na sala.",
+    "unban": "Desbanir",
+    "unbanning": "Desbanindo...",
+    "ban": "Banir",
+    "banning": "Banindo...",
+    "kick": "Expulsar",
+    "kicking": "Expulsando...",
+    "mute": "Silenciar",
+    "muting": "Silenciando...",
+    "unmute": "Dessilenciar",
+    "unmuteAction": "Dessilenciar",
+    "unmuting": "Dessilenciando...",
+    "setRole": "Definir Cargo",
+    "roleChanged": "Cargo atualizado.",
+    "banSuccess": "{username} foi banido.",
+    "unbanSuccess": "{username} foi desbanido.",
+    "kickSuccess": "{username} foi expulso.",
+    "muteSuccess": "{username} foi silenciado.",
+    "unmuteSuccess": "{username} foi dessilenciado.",
+    "confirmBan": "Banir {username}?",
+    "confirmKick": "Expulsar {username}?",
+    "confirmMute": "Silenciar {username}?",
+    "confirmUnban": "Desbanir {username}?",
+    "confirmUnmute": "Dessilenciar {username}?",
+    "reasonLabel": "Motivo (opcional)",
+    "reasonPlaceholder": "Violação de regras, spam...",
+    "durationLabel": "Duração (minutos)",
+    "durationHint": "Deixe em branco para uma ação permanente.",
+    "permanent": "Permanente",
+    "expires": "Expira em {date}",
+    "bannedBy": "Banido por {username}",
+    "mutedLabel": "Silenciado",
+    "loadError": "Falha ao carregar dados de moderação.",
+    "retry": "Tentar novamente",
+    "tabBans": "Banimentos",
+    "tabStaff": "Equipe",
+    "tabUsers": "Usuários",
+    "selectRole": "Selecionar cargo",
+    "isMuted": "Silenciado"
   },
   "globalRoles": {
     "owner": "Proprietário",
