@@ -83,6 +83,7 @@
       "noToken": "Nenhum token de verificação fornecido.",
       "unexpectedError": "Ocorreu um erro inesperado. Por favor, tente novamente mais tarde.",
       "buttonGoToLogin": "Ir para login",
+      "buttonGoToApp": "Ir para aplicação",
       "buttonCreateAccount": "Criar nova conta"
     }
   },

@@ -83,6 +83,7 @@
       "noToken": "No verification token provided.",
       "unexpectedError": "An unexpected error occurred. Please try again later.",
       "buttonGoToLogin": "Go to login",
+      "buttonGoToApp": "Go to app",
       "buttonCreateAccount": "Create new account"
     }
   },

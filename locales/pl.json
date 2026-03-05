@@ -83,6 +83,7 @@
       "noToken": "Nie podano tokena weryfikacyjnego.",
       "unexpectedError": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie później.",
       "buttonGoToLogin": "Przejdź do logowania",
+      "buttonGoToApp": "Przejdź do aplikacji",
       "buttonCreateAccount": "Utwórz nowe konto"
     }
   },
