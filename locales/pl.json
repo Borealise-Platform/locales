@@ -207,6 +207,14 @@
     },
     "clipboard": {
       "copied": "Skopiowano do schowka"
+    },
+    "friends": {
+      "requestReceived": "Zaproszenie do znajomych od {username}",
+      "requestReceivedTitle": "Zaproszenie do znajomych",
+      "requestCancelled": "{username} anulował zaproszenie do znajomych",
+      "accepted": "Ty i {username} jesteście teraz znajomymi!",
+      "acceptedTitle": "Nowy znajomy",
+      "removed": "{username} usunął cię ze znajomych"
     }
   },
   "rooms": {

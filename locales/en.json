@@ -207,6 +207,14 @@
     },
     "clipboard": {
       "copied": "Copied to clipboard"
+    },
+    "friends": {
+      "requestReceived": "Friend request from {username}",
+      "requestReceivedTitle": "Friend Request",
+      "requestCancelled": "{username} cancelled their friend request",
+      "accepted": "You and {username} are now friends!",
+      "acceptedTitle": "Now Friends",
+      "removed": "{username} removed you as a friend"
     }
   },
   "rooms": {
