@@ -218,7 +218,9 @@
     "room": {
       "joinSuccess": "Entrou em {roomName}",
       "leaveSuccess": "Saiu da sala",
-      "createSuccess": "Sala \"{roomName}\" criada com sucesso"
+      "createSuccess": "Sala \"{roomName}\" criada com sucesso",
+      "kicked": "Você foi expulso de {roomName}",
+      "banned": "Você foi banido de {roomName}"
     },
     "playlist": {
       "createSuccess": "Playlist \"{name}\" criada",
@@ -705,7 +707,9 @@
     "tabStaff": "Equipe",
     "tabUsers": "Usuários",
     "selectRole": "Selecionar cargo",
-    "isMuted": "Silenciado"
+    "isMuted": "Silenciado",
+    "skip": "Pular",
+    "skipSuccess": "O DJ atual foi pulado."
   },
   "globalRoles": {
     "owner": "Proprietário",
@@ -723,6 +727,15 @@
     "newSubscriber": "Assinante",
     "subscriber1Month": "Assinante por 1 mês",
     "subscriberNMonths": "Assinante por {n} meses"
+  },
+  "ejected": {
+    "kickedTitle": "Você foi expulso",
+    "bannedTitle": "Você foi banido",
+    "kickedMessage": "Você foi removido de {roomName}.",
+    "bannedMessage": "Você foi banido de {roomName}.",
+    "reason": "Motivo: {reason}",
+    "by": "por {actor}",
+    "backToDashboard": "Voltar ao Painel"
   },
   "friends": {
     "title": "Amigos",

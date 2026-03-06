@@ -218,7 +218,9 @@
     "room": {
       "joinSuccess": "Joined {roomName}",
       "leaveSuccess": "Left room",
-      "createSuccess": "Room \"{roomName}\" created successfully"
+      "createSuccess": "Room \"{roomName}\" created successfully",
+      "kicked": "You were kicked from {roomName}",
+      "banned": "You were banned from {roomName}"
     },
     "playlist": {
       "createSuccess": "Playlist \"{name}\" created",
@@ -705,7 +707,9 @@
     "tabStaff": "Staff",
     "tabUsers": "Users",
     "selectRole": "Select a role",
-    "isMuted": "Muted"
+    "isMuted": "Muted",
+    "skip": "Skip",
+    "skipSuccess": "The current DJ has been skipped."
   },
   "globalRoles": {
     "owner": "Owner",
@@ -742,5 +746,14 @@
     "alreadyFriends": "Already friends",
     "requestSent": "Request sent",
     "requestReceived": "Wants to be your friend"
+  },
+  "ejected": {
+    "kickedTitle": "You were kicked",
+    "bannedTitle": "You were banned",
+    "kickedMessage": "You were removed from {roomName}.",
+    "bannedMessage": "You have been banned from {roomName}.",
+    "reason": "Reason: {reason}",
+    "by": "by {actor}",
+    "backToDashboard": "Back to Dashboard"
   }
 }

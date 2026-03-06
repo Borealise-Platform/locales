@@ -218,7 +218,9 @@
     "room": {
       "joinSuccess": "Dołączono do {roomName}",
       "leaveSuccess": "Opuszczono pokój",
-      "createSuccess": "Pokój \"{roomName}\" utworzony pomyślnie"
+      "createSuccess": "Pokój \"{roomName}\" utworzony pomyślnie",
+      "kicked": "Zostałeś wyrzucony z {roomName}",
+      "banned": "Zostałeś zbanowany w {roomName}"
     },
     "playlist": {
       "createSuccess": "Playlista \"{name}\" utworzona",
@@ -705,7 +707,9 @@
     "tabStaff": "Personel",
     "tabUsers": "Użytkownicy",
     "selectRole": "Wybierz rolę",
-    "isMuted": "Wyciszony"
+    "isMuted": "Wyciszony",
+    "skip": "Pomiń",
+    "skipSuccess": "Aktualny DJ został pominięty."
   },
   "globalRoles": {
     "owner": "Właściciel",
@@ -723,6 +727,15 @@
     "newSubscriber": "Subskrybent",
     "subscriber1Month": "Subskrybent od 1 miesiąca",
     "subscriberNMonths": "Subskrybent od {n} miesięcy"
+  },
+  "ejected": {
+    "kickedTitle": "Zostałeś wyrzucony",
+    "bannedTitle": "Zostałeś zbanowany",
+    "kickedMessage": "Zostałeś usunięty z {roomName}.",
+    "bannedMessage": "Zostałeś zbanowany w {roomName}.",
+    "reason": "Powód: {reason}",
+    "by": "przez {actor}",
+    "backToDashboard": "Wróć do panelu"
   },
   "friends": {
     "title": "Znajomi",
