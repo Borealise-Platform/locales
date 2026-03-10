@@ -31,6 +31,8 @@
     "login": "Logowanie",
     "register": "Rejestracja",
     "verify": "Weryfikacja",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "resetPassword": "Zresetuj hasło",
     "dashboard": "Panel",
     "explore": "Odkrywaj pokoje",
     "room": "Pokój",
@@ -89,6 +91,30 @@
       "buttonGoToLogin": "Przejdź do logowania",
       "buttonGoToApp": "Przejdź do aplikacji",
       "buttonCreateAccount": "Utwórz nowe konto"
+    },
+    "forgotPassword": {
+      "title": "Zapomniałeś hasła?",
+      "subtitle": "Wprowadź adres e-mail, a wyślemy Ci link do zresetowania hasła.",
+      "emailLabel": "E-mail",
+      "submitButton": "Wyślij link resetowania",
+      "submitting": "Wysyłanie...",
+      "successTitle": "Sprawdź swoją skrzynkę!",
+      "successSubtitle": "Jeśli konto istnieje dla tego e-maila, wysłaliśmy link do zresetowania hasła. Sprawdź folder spam, jeśli go nie widzisz.",
+      "backToLogin": "Wróć do logowania",
+      "rememberPassword": "Pamiętasz hasło?"
+    },
+    "resetPassword": {
+      "title": "Zresetuj hasło",
+      "subtitle": "Wprowadź nowe hasło poniżej.",
+      "newPasswordLabel": "Nowe hasło",
+      "confirmPasswordLabel": "Potwierdź nowe hasło",
+      "submitButton": "Zresetuj hasło",
+      "submitting": "Resetowanie...",
+      "successTitle": "Hasło zresetowane!",
+      "successSubtitle": "Twoje hasło zostało zaktualizowane. Możesz teraz zalogować się nowym hasłem.",
+      "goToLogin": "Przejdź do logowania",
+      "invalidToken": "Ten link resetowania jest nieprawidłowy lub wygasł. Poproś o nowy.",
+      "expiredToken": "Ten link resetowania wygasł. Poproś o nowy."
     }
   },
   "errors": {
@@ -123,6 +149,12 @@
     "AUTH_ALREADY_VERIFIED": "Ten email został już zweryfikowany.",
     "AUTH_VERIFICATION_SEND_FAILED": "Nie udało się wysłać emaila weryfikacyjnego. Spróbuj później.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Proszę poczekać przed żądaniem kolejnego emaila weryfikacyjnego.",
+
+    "AUTH_PASSWORD_RESET_TOKEN_INVALID": "Ten link resetowania hasła jest nieprawidłowy.",
+    "AUTH_PASSWORD_RESET_TOKEN_EXPIRED": "Ten link resetowania hasła wygasł. Poproś o nowy.",
+    "AUTH_PASSWORD_RESET_RATE_LIMITED": "Proszę poczekać przed żądaniem kolejnego emaila resetowania hasła.",
+    "AUTH_PASSWORD_RESET_FAILED": "Resetowanie hasła nie powiodło się. Spróbuj ponownie.",
+    "AUTH_PASSWORD_RESET_SEND_FAILED": "Nie udało się wysłać emaila resetowania hasła. Spróbuj później.",
 
     "AUTH_DISCORD_EMAIL_EXISTS": "Konto z tym adresem e-mail już istnieje. Zaloguj się i połącz Discord w ustawieniach.",
     "AUTH_DISCORD_ALREADY_CONNECTED": "To konto Discord jest już połączone.",
@@ -213,7 +245,9 @@
       "verificationEmailSent": "Email weryfikacyjny wysłany! Sprawdź swoją skrzynkę.",
       "verificationSendFailed": "Nie udało się wysłać emaila weryfikacyjnego. Spróbuj później.",
       "discordConnected": "Konto Discord połączone pomyślnie!",
-      "discordDisconnected": "Konto Discord odłączone."
+      "discordDisconnected": "Konto Discord odłączone.",
+      "passwordResetEmailSent": "Email resetowania hasła wysłany! Sprawdź swoją skrzynkę.",
+      "passwordResetSuccess": "Hasło zresetowane pomyślnie. Możesz się teraz zalogować."
     },
     "room": {
       "joinSuccess": "Dołączono do {roomName}",

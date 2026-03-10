@@ -31,6 +31,8 @@
     "login": "Entrar",
     "register": "Registrar",
     "verify": "Verificar",
+    "forgotPassword": "Esqueceu a Senha",
+    "resetPassword": "Redefinir Senha",
     "dashboard": "Painel",
     "explore": "Explorar Salas",
     "room": "Sala",
@@ -89,6 +91,30 @@
       "buttonGoToLogin": "Ir para login",
       "buttonGoToApp": "Ir para aplicação",
       "buttonCreateAccount": "Criar nova conta"
+    },
+    "forgotPassword": {
+      "title": "Esqueceu sua senha?",
+      "subtitle": "Digite seu endereço de email e enviaremos um link para redefinir sua senha.",
+      "emailLabel": "Email",
+      "submitButton": "Enviar Link de Redefinição",
+      "submitting": "Enviando...",
+      "successTitle": "Verifique sua caixa de entrada!",
+      "successSubtitle": "Se uma conta existir para esse email, enviamos um link de redefinição de senha. Verifique sua pasta de spam se não recebê-lo.",
+      "backToLogin": "Voltar para login",
+      "rememberPassword": "Lembrou sua senha?"
+    },
+    "resetPassword": {
+      "title": "Redefina sua senha",
+      "subtitle": "Digite sua nova senha abaixo.",
+      "newPasswordLabel": "Nova Senha",
+      "confirmPasswordLabel": "Confirmar Nova Senha",
+      "submitButton": "Redefinir Senha",
+      "submitting": "Redefinindo...",
+      "successTitle": "Senha redefinida!",
+      "successSubtitle": "Sua senha foi atualizada. Você pode fazer login com sua nova senha.",
+      "goToLogin": "Ir para login",
+      "invalidToken": "Este link de redefinição é inválido ou expirou. Por favor, solicite um novo.",
+      "expiredToken": "Este link de redefinição expirou. Por favor, solicite um novo."
     }
   },
   "errors": {
@@ -123,6 +149,12 @@
     "AUTH_ALREADY_VERIFIED": "Este email já foi verificado.",
     "AUTH_VERIFICATION_SEND_FAILED": "Não foi possível enviar o email de verificação. Tente novamente mais tarde.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Por favor, aguarde antes de solicitar outro email de verificação.",
+
+    "AUTH_PASSWORD_RESET_TOKEN_INVALID": "Este link de redefinição de senha é inválido.",
+    "AUTH_PASSWORD_RESET_TOKEN_EXPIRED": "Este link de redefinição de senha expirou. Por favor, solicite um novo.",
+    "AUTH_PASSWORD_RESET_RATE_LIMITED": "Por favor, aguarde antes de solicitar outro email de redefinição de senha.",
+    "AUTH_PASSWORD_RESET_FAILED": "Falha ao redefinir senha. Tente novamente.",
+    "AUTH_PASSWORD_RESET_SEND_FAILED": "Não foi possível enviar o email de redefinição de senha. Tente novamente mais tarde.",
 
     "AUTH_DISCORD_EMAIL_EXISTS": "Já existe uma conta com este email. Por favor, faça login e conecte o Discord nas configurações.",
     "AUTH_DISCORD_ALREADY_CONNECTED": "Esta conta do Discord já está conectada.",
@@ -213,7 +245,9 @@
       "verificationEmailSent": "Email de verificação enviado! Verifique sua caixa de entrada.",
       "verificationSendFailed": "Falha ao enviar email de verificação. Tente novamente mais tarde.",
       "discordConnected": "Conta do Discord conectada com sucesso!",
-      "discordDisconnected": "Conta do Discord desconectada."
+      "discordDisconnected": "Conta do Discord desconectada.",
+      "passwordResetEmailSent": "Email de redefinição de senha enviado! Verifique sua caixa de entrada.",
+      "passwordResetSuccess": "Senha redefinida com sucesso. Você pode fazer login agora."
     },
     "room": {
       "joinSuccess": "Entrou em {roomName}",

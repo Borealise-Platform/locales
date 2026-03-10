@@ -31,6 +31,8 @@
     "login": "Login",
     "register": "Register",
     "verify": "Verify",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
     "dashboard": "Dashboard",
     "explore": "Explore Rooms",
     "room": "Room",
@@ -89,6 +91,30 @@
       "buttonGoToLogin": "Go to login",
       "buttonGoToApp": "Go to app",
       "buttonCreateAccount": "Create new account"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email address and we'll send you a link to reset your password.",
+      "emailLabel": "Email",
+      "submitButton": "Send Reset Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your inbox!",
+      "successSubtitle": "If an account exists for that email, we've sent a password reset link. Check your spam folder if you don't see it.",
+      "backToLogin": "Back to login",
+      "rememberPassword": "Remember your password?"
+    },
+    "resetPassword": {
+      "title": "Reset your password",
+      "subtitle": "Enter your new password below.",
+      "newPasswordLabel": "New Password",
+      "confirmPasswordLabel": "Confirm New Password",
+      "submitButton": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password reset!",
+      "successSubtitle": "Your password has been updated. You can now log in with your new password.",
+      "goToLogin": "Go to login",
+      "invalidToken": "This reset link is invalid or has expired. Please request a new one.",
+      "expiredToken": "This reset link has expired. Please request a new one."
     }
   },
   "errors": {
@@ -123,6 +149,12 @@
     "AUTH_ALREADY_VERIFIED": "This email has already been verified.",
     "AUTH_VERIFICATION_SEND_FAILED": "Unable to send verification email. Please try again later.",
     "AUTH_VERIFICATION_RATE_LIMITED": "Please wait before requesting another verification email.",
+
+    "AUTH_PASSWORD_RESET_TOKEN_INVALID": "This password reset link is invalid.",
+    "AUTH_PASSWORD_RESET_TOKEN_EXPIRED": "This password reset link has expired. Please request a new one.",
+    "AUTH_PASSWORD_RESET_RATE_LIMITED": "Please wait before requesting another password reset email.",
+    "AUTH_PASSWORD_RESET_FAILED": "Failed to reset password. Please try again.",
+    "AUTH_PASSWORD_RESET_SEND_FAILED": "Unable to send password reset email. Please try again later.",
 
     "AUTH_DISCORD_EMAIL_EXISTS": "An account with this email already exists. Please log in and connect Discord from settings.",
     "AUTH_DISCORD_ALREADY_CONNECTED": "This Discord account is already connected.",
@@ -213,7 +245,9 @@
       "verificationEmailSent": "Verification email sent! Check your inbox.",
       "verificationSendFailed": "Failed to send verification email. Please try again later.",
       "discordConnected": "Discord account connected successfully!",
-      "discordDisconnected": "Discord account disconnected."
+      "discordDisconnected": "Discord account disconnected.",
+      "passwordResetEmailSent": "Password reset email sent! Check your inbox.",
+      "passwordResetSuccess": "Password reset successfully. You can now log in."
     },
     "room": {
       "joinSuccess": "Joined {roomName}",
