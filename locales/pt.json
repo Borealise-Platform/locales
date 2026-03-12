@@ -220,7 +220,15 @@
     "VOTE_CANNOT_VOTE_OWN": "Você não pode votar em sua própria música",
 
     "CHAT_MESSAGE_TOO_LONG": "Mensagem muito longa",
-    "CHAT_RATE_LIMITED": "Você está enviando mensagens muito rapidamente"
+    "CHAT_RATE_LIMITED": "Você está enviando mensagens muito rapidamente",
+
+    "VIOLATION_NOT_FOUND": "Violação não encontrada",
+    "VIOLATION_ALREADY_REVOKED": "Esta violação já foi revogada",
+    "VIOLATION_CREATE_FAILED": "Falha ao criar violação",
+    "VIOLATION_REVOKE_FAILED": "Falha ao revogar violação",
+    "VIOLATION_REASON_REQUIRED": "Um motivo é necessário para esta violação",
+    "VIOLATION_REASON_TOO_LONG": "O motivo da violação deve ter no máximo 500 caracteres",
+    "USER_PERMANENTLY_BANNED": "Este usuário foi banido permanentemente e não pode ser reativado"
   },
   "booth": {
     "skip": {
@@ -400,7 +408,8 @@
       "audio": "Áudio",
       "notifications": "Notificações",
       "appearance": "Aparência",
-      "subscription": "Assinatura"
+      "subscription": "Assinatura",
+      "violations": "Violações"
     },
     "account": {
       "title": "Configurações da Conta",
@@ -470,6 +479,17 @@
         "badge": "Insígnia de apoiador no seu perfil",
         "future": "Acesso antecipado a novas funcionalidades"
       }
+    },
+    "violations": {
+      "title": "Violações da Conta",
+      "none": "Nenhuma violação na sua conta. Continue assim!",
+      "loadError": "Falha ao carregar violações.",
+      "permanentBanTitle": "Sua conta foi banida permanentemente",
+      "permanentBanText": "Sua conta foi banida permanentemente devido a violações repetidas dos Termos de Serviço.",
+      "active": "Ativa",
+      "revoked": "Revogada",
+      "issuedBy": "Emitida por {admin}",
+      "hint": "As violações são emitidas pela equipe por violação dos Termos de Serviço. Acumular 3 violações ativas resulta em banimento permanente."
     }
   },
   "stage": {
@@ -807,5 +827,91 @@
     "alreadyFriends": "Já é amigo",
     "requestSent": "Solicitação enviada",
     "requestReceived": "Deseja ser seu amigo"
+  },
+  "admin": {
+    "title": "Painel Administrativo",
+    "tabs": {
+      "overview": "Visão Geral",
+      "users": "Usuários",
+      "broadcast": "Transmissão",
+      "maintenance": "Manutenção"
+    },
+    "overview": {
+      "activeRooms": "Salas Ativas",
+      "onlineUsers": "Usuários Online",
+      "activeRoomsTitle": "Salas Ativas",
+      "online": "{count} online",
+      "noRooms": "Nenhuma sala está ativa no momento."
+    },
+    "users": {
+      "searchPlaceholder": "Buscar por nome de usuário ou e-mail...",
+      "allRoles": "Todas as funções",
+      "allStatuses": "Todos os status",
+      "noUsers": "Nenhum usuário corresponde aos filtros atuais.",
+      "roles": {
+        "user": "Usuário",
+        "moderator": "Moderador",
+        "admin": "Admin",
+        "owner": "Proprietário"
+      },
+      "status": {
+        "active": "Ativo",
+        "disabled": "Desativado",
+        "permanentBan": "Ban perm."
+      },
+      "cols": {
+        "id": "ID",
+        "username": "Usuário",
+        "email": "E-mail",
+        "role": "Função",
+        "status": "Status",
+        "joined": "Entrou",
+        "actions": "Ações"
+      },
+      "actions": {
+        "enable": "Ativar",
+        "disable": "Desativar",
+        "violations": "Violações"
+      }
+    },
+    "violations": {
+      "title": "Violações — {username}",
+      "by": "por {admin}",
+      "revokedLabel": "Revogada",
+      "revoke": "Revogar",
+      "none": "Nenhuma violação registrada.",
+      "addTitle": "Adicionar Violação",
+      "permBanNote": "Nota: Este usuário atingiu {max} violações e foi banido permanentemente.",
+      "reasonPlaceholder": "Motivo da violação...",
+      "add": "Adicionar Violação",
+      "adding": "Adicionando..."
+    },
+    "pagination": {
+      "prev": "Anterior",
+      "next": "Próxima",
+      "page": "Página {page}",
+      "total": "{count} usuários"
+    },
+    "broadcast": {
+      "title": "Enviar Transmissão Global",
+      "hint": "Esta mensagem será enviada a todos os usuários conectados na plataforma.",
+      "placeholder": "Digite sua mensagem de transmissão...",
+      "sending": "Enviando...",
+      "send": "Enviar Transmissão",
+      "sentTo": "Transmissão enviada para {count} usuário(s)."
+    },
+    "maintenance": {
+      "title": "Modo de Manutenção",
+      "hint": "Quando ativado, apenas a equipe (moderadores e acima) pode acessar a plataforma.",
+      "statusLabel": "Status",
+      "enable": "Ativar Manutenção",
+      "disable": "Desativar Manutenção",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Mensagem exibida aos usuários...",
+      "endsAtLabel": "Termina em",
+      "endsAtPlaceholder": "ex. 2025-01-01T00:00:00Z",
+      "nowActive": "O modo de manutenção está agora ativo.",
+      "nowDisabled": "O modo de manutenção foi desativado."
+    }
   }
 }

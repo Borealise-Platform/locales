@@ -220,7 +220,15 @@
     "VOTE_CANNOT_VOTE_OWN": "You cannot vote on your own track",
 
     "CHAT_MESSAGE_TOO_LONG": "Message is too long",
-    "CHAT_RATE_LIMITED": "You are sending messages too quickly"
+    "CHAT_RATE_LIMITED": "You are sending messages too quickly",
+
+    "VIOLATION_NOT_FOUND": "Violation not found",
+    "VIOLATION_ALREADY_REVOKED": "This violation has already been revoked",
+    "VIOLATION_CREATE_FAILED": "Failed to create violation",
+    "VIOLATION_REVOKE_FAILED": "Failed to revoke violation",
+    "VIOLATION_REASON_REQUIRED": "A reason is required for this violation",
+    "VIOLATION_REASON_TOO_LONG": "Violation reason must be 500 characters or less",
+    "USER_PERMANENTLY_BANNED": "This user has been permanently banned and cannot be re-enabled"
   },
   "booth": {
     "skip": {
@@ -400,7 +408,8 @@
       "audio": "Audio",
       "notifications": "Notifications",
       "appearance": "Appearance",
-      "subscription": "Subscription"
+      "subscription": "Subscription",
+      "violations": "Violations"
     },
     "account": {
       "title": "Account Settings",
@@ -470,6 +479,17 @@
         "badge": "Supporter badge on your profile",
         "future": "Early access to new features"
       }
+    },
+    "violations": {
+      "title": "Account Violations",
+      "none": "No violations on your account. Keep it up!",
+      "loadError": "Failed to load violations.",
+      "permanentBanTitle": "Your account is permanently banned",
+      "permanentBanText": "Your account has been permanently banned due to repeated violations of our Terms of Service.",
+      "active": "Active",
+      "revoked": "Revoked",
+      "issuedBy": "Issued by {admin}",
+      "hint": "Violations are issued by staff for breaking our Terms of Service. Reaching 3 active violations results in a permanent ban."
     }
   },
   "stage": {
@@ -807,5 +827,91 @@
     "reason": "Reason: {reason}",
     "by": "by {actor}",
     "backToDashboard": "Back to Dashboard"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users",
+      "broadcast": "Broadcast",
+      "maintenance": "Maintenance"
+    },
+    "overview": {
+      "activeRooms": "Active Rooms",
+      "onlineUsers": "Online Users",
+      "activeRoomsTitle": "Active Rooms",
+      "online": "{count} online",
+      "noRooms": "No rooms are currently active."
+    },
+    "users": {
+      "searchPlaceholder": "Search by username or email...",
+      "allRoles": "All roles",
+      "allStatuses": "All statuses",
+      "noUsers": "No users match your current filters.",
+      "roles": {
+        "user": "User",
+        "moderator": "Moderator",
+        "admin": "Admin",
+        "owner": "Owner"
+      },
+      "status": {
+        "active": "Active",
+        "disabled": "Disabled",
+        "permanentBan": "Perm Ban"
+      },
+      "cols": {
+        "id": "ID",
+        "username": "Username",
+        "email": "Email",
+        "role": "Role",
+        "status": "Status",
+        "joined": "Joined",
+        "actions": "Actions"
+      },
+      "actions": {
+        "enable": "Enable",
+        "disable": "Disable",
+        "violations": "Violations"
+      }
+    },
+    "violations": {
+      "title": "Violations — {username}",
+      "by": "by {admin}",
+      "revokedLabel": "Revoked",
+      "revoke": "Revoke",
+      "none": "No violations recorded.",
+      "addTitle": "Add Violation",
+      "permBanNote": "Note: This user has reached {max} violations and is permanently banned.",
+      "reasonPlaceholder": "Reason for violation...",
+      "add": "Add Violation",
+      "adding": "Adding..."
+    },
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page {page}",
+      "total": "{count} users"
+    },
+    "broadcast": {
+      "title": "Send Global Broadcast",
+      "hint": "This message will be sent to all users currently connected on the platform.",
+      "placeholder": "Type your broadcast message...",
+      "sending": "Sending...",
+      "send": "Send Broadcast",
+      "sentTo": "Broadcast sent to {count} user(s)."
+    },
+    "maintenance": {
+      "title": "Maintenance Mode",
+      "hint": "When enabled, only staff (moderators and above) can access the platform.",
+      "statusLabel": "Status",
+      "enable": "Enable Maintenance",
+      "disable": "Disable Maintenance",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Maintenance message shown to users...",
+      "endsAtLabel": "Ends At",
+      "endsAtPlaceholder": "e.g. 2025-01-01T00:00:00Z",
+      "nowActive": "Maintenance mode is now active.",
+      "nowDisabled": "Maintenance mode has been disabled."
+    }
   }
 }

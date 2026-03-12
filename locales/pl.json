@@ -220,7 +220,15 @@
     "VOTE_CANNOT_VOTE_OWN": "Nie możesz głosować na własny utwór",
 
     "CHAT_MESSAGE_TOO_LONG": "Wiadomość jest za długa",
-    "CHAT_RATE_LIMITED": "Wysyłasz wiadomości zbyt szybko"
+    "CHAT_RATE_LIMITED": "Wysyłasz wiadomości zbyt szybko",
+
+    "VIOLATION_NOT_FOUND": "Naruszenie nie zostało znalezione",
+    "VIOLATION_ALREADY_REVOKED": "To naruszenie zostało już cofnięte",
+    "VIOLATION_CREATE_FAILED": "Nie udało się utworzyć naruszenia",
+    "VIOLATION_REVOKE_FAILED": "Nie udało się cofnąć naruszenia",
+    "VIOLATION_REASON_REQUIRED": "Powód naruszenia jest wymagany",
+    "VIOLATION_REASON_TOO_LONG": "Powód naruszenia może mieć maksymalnie 500 znaków",
+    "USER_PERMANENTLY_BANNED": "Ten użytkownik został permanentnie zablokowany i nie może zostać ponownie aktywowany"
   },
   "booth": {
     "skip": {
@@ -466,7 +474,8 @@
       "audio": "Dźwięk",
       "notifications": "Powiadomienia",
       "appearance": "Wygląd",
-      "subscription": "Subskrypcja"
+      "subscription": "Subskrypcja",
+      "violations": "Naruszenia"
     },
     "account": {
       "title": "Ustawienia konta",
@@ -536,6 +545,17 @@
         "badge": "Odznaka wspierającego na profilu",
         "future": "Wczesny dostęp do nowych funkcji"
       }
+    },
+    "violations": {
+      "title": "Naruszenia konta",
+      "none": "Brak naruszeń na Twoim koncie. Tak trzymaj!",
+      "loadError": "Nie udało się załadować naruszeń.",
+      "permanentBanTitle": "Twoje konto zostało permanentnie zablokowane",
+      "permanentBanText": "Twoje konto zostało permanentnie zablokowane z powodu wielokrotnych naruszeń Warunków Usługi.",
+      "active": "Aktywne",
+      "revoked": "Cofnięte",
+      "issuedBy": "Wydane przez {admin}",
+      "hint": "Naruszenia są wydawane przez personel za łamanie Warunków Usługi. Osiągnięcie 3 aktywnych naruszeń skutkuje permanentnym banem."
     }
   },
   "stage": {
@@ -807,5 +827,91 @@
     "alreadyFriends": "Już jesteś znajomym",
     "requestSent": "Zaproszenie wysłane",
     "requestReceived": "Chce być Twoim znajomym"
+  },
+  "admin": {
+    "title": "Panel Administracyjny",
+    "tabs": {
+      "overview": "Przegląd",
+      "users": "Użytkownicy",
+      "broadcast": "Ogłoszenie",
+      "maintenance": "Konserwacja"
+    },
+    "overview": {
+      "activeRooms": "Aktywne pokoje",
+      "onlineUsers": "Użytkownicy online",
+      "activeRoomsTitle": "Aktywne pokoje",
+      "online": "{count} online",
+      "noRooms": "Brak aktywnych pokoi."
+    },
+    "users": {
+      "searchPlaceholder": "Szukaj po nazwie lub e-mailu...",
+      "allRoles": "Wszystkie role",
+      "allStatuses": "Wszystkie statusy",
+      "noUsers": "Brak użytkowników pasujących do filtrów.",
+      "roles": {
+        "user": "Użytkownik",
+        "moderator": "Moderator",
+        "admin": "Admin",
+        "owner": "Właściciel"
+      },
+      "status": {
+        "active": "Aktywny",
+        "disabled": "Zablokowany",
+        "permanentBan": "Perm. ban"
+      },
+      "cols": {
+        "id": "ID",
+        "username": "Nazwa",
+        "email": "E-mail",
+        "role": "Rola",
+        "status": "Status",
+        "joined": "Dołączył",
+        "actions": "Akcje"
+      },
+      "actions": {
+        "enable": "Włącz",
+        "disable": "Wyłącz",
+        "violations": "Naruszenia"
+      }
+    },
+    "violations": {
+      "title": "Naruszenia — {username}",
+      "by": "przez {admin}",
+      "revokedLabel": "Cofnięte",
+      "revoke": "Cofnij",
+      "none": "Brak naruszeń.",
+      "addTitle": "Dodaj naruszenie",
+      "permBanNote": "Uwaga: Ten użytkownik osiągnął {max} naruszeń i został permanentnie zablokowany.",
+      "reasonPlaceholder": "Powód naruszenia...",
+      "add": "Dodaj naruszenie",
+      "adding": "Dodawanie..."
+    },
+    "pagination": {
+      "prev": "Poprzednia",
+      "next": "Następna",
+      "page": "Strona {page}",
+      "total": "{count} użytkowników"
+    },
+    "broadcast": {
+      "title": "Wyślij globalne ogłoszenie",
+      "hint": "Ta wiadomość zostanie wysłana do wszystkich połączonych użytkowników.",
+      "placeholder": "Wpisz treść ogłoszenia...",
+      "sending": "Wysyłanie...",
+      "send": "Wyślij ogłoszenie",
+      "sentTo": "Ogłoszenie wysłane do {count} użytkowników."
+    },
+    "maintenance": {
+      "title": "Tryb konserwacji",
+      "hint": "Gdy włączony, tylko personel (moderatorzy i wyżej) może uzyskać dostęp do platformy.",
+      "statusLabel": "Status",
+      "enable": "Włącz konserwację",
+      "disable": "Wyłącz konserwację",
+      "messageLabel": "Wiadomość",
+      "messagePlaceholder": "Wiadomość wyświetlana użytkownikom...",
+      "endsAtLabel": "Kończy się",
+      "endsAtPlaceholder": "np. 2025-01-01T00:00:00Z",
+      "nowActive": "Tryb konserwacji jest teraz aktywny.",
+      "nowDisabled": "Tryb konserwacji został wyłączony."
+    }
   }
 }
