@@ -524,7 +524,13 @@
     "noRooms": "You haven't joined any rooms yet",
     "findRooms": "Find rooms to join",
     "recentActivity": "Recent Activity",
-    "listening": "listening"
+    "listening": "listening",
+    "activityPlayed": "You played \"{track}\" in {room}",
+    "activityWoots": "Your play of \"{track}\" got {count} woots in {room}",
+    "activityGrabs": "{count} people grabbed your play of \"{track}\" in {room}",
+    "noRecentActivity": "No recent activity yet",
+    "loadingActivity": "Loading activity...",
+    "justNow": "just now"
   },
   "explore": {
     "searchPlaceholder": "Search rooms...",

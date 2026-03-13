@@ -524,7 +524,13 @@
     "noRooms": "Você ainda não entrou em nenhuma sala",
     "findRooms": "Encontre salas para entrar",
     "recentActivity": "Atividade Recente",
-    "listening": "ouvindo"
+    "listening": "ouvindo",
+    "activityPlayed": "Você tocou \"{track}\" em {room}",
+    "activityWoots": "Sua reprodução de \"{track}\" recebeu {count} woots em {room}",
+    "activityGrabs": "{count} pessoas adicionaram sua reprodução de \"{track}\" em {room}",
+    "noRecentActivity": "Ainda não há atividade recente",
+    "loadingActivity": "Carregando atividade...",
+    "justNow": "agora mesmo"
   },
   "explore": {
     "searchPlaceholder": "Buscar salas...",

@@ -590,7 +590,13 @@
     "noRooms": "Nie dołączyłeś jeszcze do żadnego pokoju",
     "findRooms": "Znajdź pokoje do dołączenia",
     "recentActivity": "Ostatnia aktywność",
-    "listening": "słucha"
+    "listening": "słucha",
+    "activityPlayed": "Zagrałeś \"{track}\" w pokoju {room}",
+    "activityWoots": "Twój utwór \"{track}\" zdobył {count} wootów w pokoju {room}",
+    "activityGrabs": "{count} osób dodało do playlisty Twój utwór \"{track}\" w pokoju {room}",
+    "noRecentActivity": "Brak ostatniej aktywności",
+    "loadingActivity": "Ładowanie aktywności...",
+    "justNow": "przed chwilą"
   },
   "explore": {
     "searchPlaceholder": "Szukaj pokojów...",
