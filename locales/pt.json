@@ -820,6 +820,27 @@
     "subscriber1Month": "Assinante por 1 mês",
     "subscriberNMonths": "Assinante por {n} meses"
   },
+  "profile": {
+    "back": "Voltar",
+    "notFound": "Perfil do usuário não encontrado.",
+    "bioTitle": "Bio",
+    "bioEmpty": "Este usuário ainda não escreveu uma bio.",
+    "moderationTitle": "Ferramentas de Moderação",
+    "globalModeration": "Moderação Global",
+    "roomModeration": "Moderação da Sala",
+    "globalRole": "Cargo global",
+    "roleUpdated": "Cargo do usuário atualizado.",
+    "actionFailed": "Falha na ação.",
+    "accountDisabled": "Conta desativada.",
+    "accountEnabled": "Conta ativada.",
+    "level": "Nível",
+    "xp": "XP",
+    "roomActionDone": {
+      "mute": "Usuário silenciado.",
+      "kick": "Usuário expulso.",
+      "ban": "Usuário banido."
+    }
+  },
   "ejected": {
     "kickedTitle": "Você foi expulso",
     "bannedTitle": "Você foi banido",

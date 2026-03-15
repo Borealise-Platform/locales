@@ -820,6 +820,27 @@
     "subscriber1Month": "Subskrybent od 1 miesiąca",
     "subscriberNMonths": "Subskrybent od {n} miesięcy"
   },
+  "profile": {
+    "back": "Wstecz",
+    "notFound": "Nie znaleziono profilu użytkownika.",
+    "bioTitle": "Bio",
+    "bioEmpty": "Ten użytkownik nie dodał jeszcze opisu.",
+    "moderationTitle": "Narzędzia moderacji",
+    "globalModeration": "Moderacja globalna",
+    "roomModeration": "Moderacja pokoju",
+    "globalRole": "Rola globalna",
+    "roleUpdated": "Rola użytkownika została zaktualizowana.",
+    "actionFailed": "Akcja nie powiodła się.",
+    "accountDisabled": "Konto zostało wyłączone.",
+    "accountEnabled": "Konto zostało włączone.",
+    "level": "Poziom",
+    "xp": "XP",
+    "roomActionDone": {
+      "mute": "Użytkownik został wyciszony.",
+      "kick": "Użytkownik został wyrzucony.",
+      "ban": "Użytkownik został zbanowany."
+    }
+  },
   "ejected": {
     "kickedTitle": "Zostałeś wyrzucony",
     "bannedTitle": "Zostałeś zbanowany",

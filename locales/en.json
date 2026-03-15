@@ -820,6 +820,27 @@
     "subscriber1Month": "Subscriber for 1 month",
     "subscriberNMonths": "Subscriber for {n} months"
   },
+  "profile": {
+    "back": "Back",
+    "notFound": "User profile was not found.",
+    "bioTitle": "Bio",
+    "bioEmpty": "This user has not written a bio yet.",
+    "moderationTitle": "Moderation Tools",
+    "globalModeration": "Global Moderation",
+    "roomModeration": "Room Moderation",
+    "globalRole": "Global role",
+    "roleUpdated": "User role updated.",
+    "actionFailed": "Action failed.",
+    "accountDisabled": "Account disabled.",
+    "accountEnabled": "Account enabled.",
+    "level": "Level",
+    "xp": "XP",
+    "roomActionDone": {
+      "mute": "User muted.",
+      "kick": "User kicked.",
+      "ban": "User banned."
+    }
+  },
   "friends": {
     "title": "Friends",
     "search": "Search by username...",
