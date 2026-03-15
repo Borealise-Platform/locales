@@ -834,8 +834,11 @@
     "accountDisabled": "Conta desativada.",
     "accountEnabled": "Conta ativada.",
     "level": "Nível",
+    "levelShort": "Nv.",
     "xp": "XP",
     "friends": "{n} Amigos",
+    "friendsTitle": "Amigos",
+    "friendsEmpty": "Este usuário ainda não tem amigos.",
     "friendsMutual": "{n} em Comum",
     "roomActionDone": {
       "mute": "Usuário silenciado.",

@@ -834,8 +834,11 @@
     "accountDisabled": "Account disabled.",
     "accountEnabled": "Account enabled.",
     "level": "Level",
+    "levelShort": "Lv.",
     "xp": "XP",
     "friends": "{n} Friends",
+    "friendsTitle": "Friends",
+    "friendsEmpty": "This user has no friends yet.",
     "friendsMutual": "{n} Mutual",
     "roomActionDone": {
       "mute": "User muted.",

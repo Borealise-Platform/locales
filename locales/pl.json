@@ -834,8 +834,11 @@
     "accountDisabled": "Konto zostało wyłączone.",
     "accountEnabled": "Konto zostało włączone.",
     "level": "Poziom",
+    "levelShort": "Poz.",
     "xp": "XP",
     "friends": "{n} Znajomych",
+    "friendsTitle": "Znajomi",
+    "friendsEmpty": "Ten użytkownik nie ma jeszcze znajomych.",
     "friendsMutual": "{n} Wspólnych",
     "roomActionDone": {
       "mute": "Użytkownik został wyciszony.",
