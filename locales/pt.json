@@ -279,7 +279,9 @@
       "joinedWaitlist": "Você entrou na fila de espera",
       "leftWaitlist": "Você saiu da fila de espera",
       "nowPlaying": "Você está tocando agora!",
-      "skipped": "Sua vez foi pulada"
+      "skipped": "Sua vez foi pulada",
+      "advanceTitle": "Tocando agora",
+      "advanceMessage": "{dj} está tocando \"{title}\""
     },
     "vote": {
       "grabbed": "Música adicionada à sua playlist"
@@ -444,6 +446,8 @@
       "chatMentions": "Menções no chat",
       "mentionSound": "Reproduzir som ao ser mencionado",
       "songGrabs": "Músicas puxadas",
+      "roomJoins": "Confirmações de entrada em sala",
+      "djAdvances": "Atualizações de troca de música",
       "waitlistUpdates": "Atualizações da fila de espera"
     },
     "appearance": {

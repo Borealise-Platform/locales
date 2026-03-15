@@ -279,7 +279,9 @@
       "joinedWaitlist": "You joined the waitlist",
       "leftWaitlist": "You left the waitlist",
       "nowPlaying": "You are now playing!",
-      "skipped": "Your turn was skipped"
+      "skipped": "Your turn was skipped",
+      "advanceTitle": "Now playing",
+      "advanceMessage": "{dj} is now playing \"{title}\""
     },
     "vote": {
       "grabbed": "Track added to your playlist"
@@ -444,6 +446,8 @@
       "chatMentions": "Chat mentions",
       "mentionSound": "Play sound on mention",
       "songGrabs": "Song grabs",
+      "roomJoins": "Room join confirmations",
+      "djAdvances": "Song advance updates",
       "waitlistUpdates": "Waitlist updates"
     },
     "appearance": {

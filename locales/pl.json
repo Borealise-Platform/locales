@@ -279,7 +279,9 @@
       "joinedWaitlist": "Dołączyłeś do kolejki",
       "leftWaitlist": "Opuściłeś kolejkę",
       "nowPlaying": "Teraz grasz!",
-      "skipped": "Twoja kolej została pominięta"
+      "skipped": "Twoja kolej została pominięta",
+      "advanceTitle": "Teraz gra",
+      "advanceMessage": "{dj} gra teraz \"{title}\""
     },
     "vote": {
       "grabbed": "Utwór dodany do twojej playlisty"
@@ -510,6 +512,8 @@
       "chatMentions": "Wzmianki na czacie",
       "mentionSound": "Odtwórz dźwięk przy wzmiance",
       "songGrabs": "Pobrania utworów",
+      "roomJoins": "Potwierdzenia dołączenia do pokoju",
+      "djAdvances": "Aktualizacje zmiany utworu",
       "waitlistUpdates": "Aktualizacje kolejki"
     },
     "appearance": {
