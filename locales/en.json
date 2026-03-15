@@ -835,6 +835,8 @@
     "accountEnabled": "Account enabled.",
     "level": "Level",
     "xp": "XP",
+    "friends": "{n} Friends",
+    "friendsMutual": "{n} Mutual",
     "roomActionDone": {
       "mute": "User muted.",
       "kick": "User kicked.",

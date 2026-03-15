@@ -835,6 +835,8 @@
     "accountEnabled": "Conta ativada.",
     "level": "Nível",
     "xp": "XP",
+    "friends": "{n} Amigos",
+    "friendsMutual": "{n} em Comum",
     "roomActionDone": {
       "mute": "Usuário silenciado.",
       "kick": "Usuário expulso.",

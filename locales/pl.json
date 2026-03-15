@@ -835,6 +835,8 @@
     "accountEnabled": "Konto zostało włączone.",
     "level": "Poziom",
     "xp": "XP",
+    "friends": "{n} Znajomych",
+    "friendsMutual": "{n} Wspólnych",
     "roomActionDone": {
       "mute": "Użytkownik został wyciszony.",
       "kick": "Użytkownik został wyrzucony.",
