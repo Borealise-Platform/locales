@@ -509,6 +509,7 @@
     "tabWaitlist": "Waitlist",
     "tabUsers": "Users",
     "empty": "No messages yet. Say hi!",
+    "messageDeleted": "Message deleted",
     "waitlistEmpty": "The waitlist is empty.",
     "usersEmpty": "No one else is here yet.",
     "nowPlaying": "Now Playing",
