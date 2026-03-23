@@ -305,6 +305,10 @@
       "accepted": "You and {username} are now friends!",
       "acceptedTitle": "Now Friends",
       "removed": "{username} removed you as a friend"
+    },
+    "subscription": {
+      "giftReceivedTitle": "You got a gift subscription",
+      "giftReceivedMessage": "{from} sent you {quantity} month(s) of Borealise Plus."
     }
   },
   "rooms": {

@@ -298,13 +298,17 @@
     "clipboard": {
       "copied": "Copiado para a área de transferência"
     },
-  "friends": {
+    "friends": {
       "requestReceived": "Solicitação de amizade de {username}",
       "requestReceivedTitle": "Solicitação de Amizade",
       "requestCancelled": "{username} cancelou sua solicitação de amizade",
       "accepted": "Você e {username} são agora amigos!",
       "acceptedTitle": "Agora Amigos",
       "removed": "{username} removeu você como amigo"
+    },
+    "subscription": {
+      "giftReceivedTitle": "Você recebeu uma assinatura de presente",
+      "giftReceivedMessage": "{from} enviou {quantity} mes(es) de Borealise Plus para você."
     }
   },
   "rooms": {
