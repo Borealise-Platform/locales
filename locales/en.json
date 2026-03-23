@@ -485,6 +485,9 @@
       "backToPlan": "Back",
       "successTitle": "You're now on Borealise Plus!",
       "successDescription": "Your subscription is active. Enjoy your perks.",
+      "monthlyPrice": "$4.99",
+      "yearlyPrice": "$44.99",
+      "unknownDate": "-",
       "perMonth": "/ mo",
       "perYear": "/ yr",
       "loadError": "Failed to load subscription status.",
@@ -529,6 +532,10 @@
           "recipientRequired": "Recipient username is required.",
           "checkoutFailed": "Could not start gift checkout.",
           "retryFailed": "Could not retry gift assignment."
+        },
+        "notifications": {
+          "checkoutSuccess": "Gift purchase completed.",
+          "checkoutCanceled": "Gift checkout canceled."
         }
       },
       "perks": {

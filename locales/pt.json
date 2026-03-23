@@ -485,6 +485,9 @@
       "backToPlan": "Voltar",
       "successTitle": "Agora voce esta no Borealise Plus!",
       "successDescription": "Sua assinatura esta ativa. Aproveite seus beneficios.",
+      "monthlyPrice": "$4.99",
+      "yearlyPrice": "$44.99",
+      "unknownDate": "-",
       "perMonth": "/ mês",
       "perYear": "/ ano",
       "loadError": "Falha ao carregar status de assinatura.",
@@ -529,6 +532,10 @@
           "recipientRequired": "Usuario destinatario e obrigatorio.",
           "checkoutFailed": "Nao foi possivel iniciar o checkout do presente.",
           "retryFailed": "Nao foi possivel tentar novamente a atribuicao do presente."
+        },
+        "notifications": {
+          "checkoutSuccess": "Compra de presente concluida.",
+          "checkoutCanceled": "Checkout de presente cancelado."
         }
       },
       "perks": {

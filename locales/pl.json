@@ -551,6 +551,9 @@
       "backToPlan": "Wróć",
       "successTitle": "Masz już Borealise Plus!",
       "successDescription": "Twoja subskrypcja jest aktywna. Korzystaj z benefitów.",
+      "monthlyPrice": "$4.99",
+      "yearlyPrice": "$44.99",
+      "unknownDate": "-",
       "perMonth": "/ mies.",
       "perYear": "/ rok",
       "loadError": "Nie udało się załadować statusu subskrypcji.",
@@ -595,6 +598,10 @@
           "recipientRequired": "Nazwa użytkownika odbiorcy jest wymagana.",
           "checkoutFailed": "Nie udało się rozpocząć checkoutu prezentu.",
           "retryFailed": "Nie udało się ponowić przypisania prezentu."
+        },
+        "notifications": {
+          "checkoutSuccess": "Zakup prezentu zakończony.",
+          "checkoutCanceled": "Checkout prezentu został anulowany."
         }
       },
       "perks": {
