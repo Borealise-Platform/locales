@@ -924,7 +924,8 @@
     "currentlyDJing": "Tocando Agora",
     "newSubscriber": "Assinante",
     "subscriber1Month": "Assinante por 1 mês",
-    "subscriberNMonths": "Assinante por {n} meses"
+    "subscriberNMonths": "Assinante por {n} meses",
+    "giftSubscription": "Presentear com Assinatura"
   },
   "profile": {
     "back": "Voltar",

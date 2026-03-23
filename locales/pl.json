@@ -924,7 +924,8 @@
     "currentlyDJing": "Aktualnie gra",
     "newSubscriber": "Subskrybent",
     "subscriber1Month": "Subskrybent od 1 miesiąca",
-    "subscriberNMonths": "Subskrybent od {n} miesięcy"
+    "subscriberNMonths": "Subskrybent od {n} miesięcy",
+    "giftSubscription": "Podaruj subskrypcję"
   },
   "profile": {
     "back": "Wstecz",

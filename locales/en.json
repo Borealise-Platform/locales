@@ -924,7 +924,8 @@
     "currentlyDJing": "Currently DJing",
     "newSubscriber": "Subscriber",
     "subscriber1Month": "Subscriber for 1 month",
-    "subscriberNMonths": "Subscriber for {n} months"
+    "subscriberNMonths": "Subscriber for {n} months",
+    "giftSubscription": "Gift Subscription"
   },
   "profile": {
     "back": "Back",
