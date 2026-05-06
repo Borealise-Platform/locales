@@ -20,6 +20,7 @@
     "cancel": "Cancelar",
     "back": "Voltar",
     "delete": "Deletar",
+    "unknownUser": "Usuário desconhecido",
     "edit": "Editar",
     "loading": "Carregando...",
     "error": "Um erro ocorreu",
@@ -57,6 +58,7 @@
     "noAccount": "Não tem uma conta?",
     "haveAccount": "Já tem uma conta?",
     "loginWithDiscord": "Entrar com Discord",
+    "continueAsGuest": "Continuar como convidado",
     "or": "ou",
     "placeholders": {
       "username": "Digite seu nome de usuário",
@@ -77,6 +79,18 @@
     },
     "discord": {
       "connecting": "Conectando com Discord..."
+    },
+    "secondFactor": {
+      "hintEmail": "Digite o código enviado para seu e-mail.",
+      "hintTotp": "Digite o código do seu aplicativo autenticador.",
+      "codeLabel": "Código de verificação",
+      "codeInputPlaceholder": "123456 ou código de backup",
+      "trustDevice": "Confiar neste dispositivo por 30 dias",
+      "verify": "Verificar",
+      "errors": {
+        "codeRequired": "Digite seu código de verificação.",
+        "invalidCode": "Código de verificação inválido."
+      }
     },
     "verify": {
       "loading": "Verificando seu email...",
@@ -445,7 +459,36 @@
       "deleteConfirmPlaceholder": "Digite {username}",
       "deleteSuccess": "Sua conta foi excluída.",
       "logout": "Sair",
-      "logoutConfirm": "Tem certeza que deseja sair?"
+      "logoutConfirm": "Tem certeza que deseja sair?",
+      "twoFactor": {
+        "title": "Autenticação de dois fatores",
+        "statusEnabled": "Ativado",
+        "statusDisabled": "Desativado",
+        "disabledHint": "Adicione uma etapa extra de verificação ao fazer login.",
+        "methodHint": "Método: {method}",
+        "setupAction": "Configurar 2FA",
+        "disableAction": "Desativar 2FA",
+        "chooseMethodTitle": "Escolha o método de verificação",
+        "methodTotp": "Aplicativo autenticador (TOTP)",
+        "methodEmail": "Código por e-mail",
+        "methodUnknown": "Desconhecido",
+        "verifyTitle": "Verificar configuração",
+        "verifyTotpHint": "Escaneie ou digite este segredo no seu aplicativo autenticador e depois informe o código atual.",
+        "verifyEmailHint": "Enviamos um código de verificação para seu e-mail. Digite-o para concluir a configuração.",
+        "qrAlt": "QR code TOTP",
+        "qrGenerateFailedManual": "Não foi possível gerar o QR code. Use o segredo manualmente.",
+        "codePlaceholder": "Código de verificação",
+        "verifyAndEnable": "Verificar e ativar",
+        "backupTitle": "Salve os códigos de backup",
+        "backupHint": "Guarde esses códigos com segurança. Cada código pode ser usado apenas uma vez.",
+        "doneAction": "Concluir",
+        "setupStartFailed": "Não foi possível iniciar a configuração do 2FA.",
+        "setupVerifyFailed": "Falha na verificação da configuração.",
+        "enabledSuccess": "Autenticação de dois fatores ativada.",
+        "invalidCode": "Código de verificação inválido.",
+        "disableFailed": "Não foi possível desativar o 2FA.",
+        "disabledSuccess": "Autenticação de dois fatores desativada."
+      }
     },
     "audio": {
       "title": "Configurações de Áudio",
@@ -566,7 +609,9 @@
   "stage": {
     "waitingForDJ": "Aguardando DJ...",
     "enlargeVideo": "Ampliar vídeo",
-    "minimizeVideo": "Minimizar vídeo"
+    "minimizeVideo": "Minimizar vídeo",
+    "enterFullscreen": "Entrar em tela cheia",
+    "exitFullscreen": "Sair da tela cheia"
   },
   "chat": {
     "title": "Chat ao Vivo",
@@ -581,9 +626,189 @@
     "usersEmpty": "Mais ninguém está aqui ainda.",
     "nowPlaying": "Tocando Agora",
     "searchEmoji": "Buscar emoji...",
+    "emojiTabNative": "Emoji",
+    "emojiTabRoom": "Sala",
+    "roomEmojiEmpty": "Sem emojis da sala",
+    "gifSearchPlaceholder": "Buscar GIFs",
+    "gifSearching": "Buscando...",
+    "gifEmpty": "Nenhum GIF encontrado",
+    "gifFavorite": "Adicionar aos favoritos",
+    "gifUnfavorite": "Remover dos favoritos",
+    "gifFavoritesEmpty": "Nenhum GIF favorito ainda",
+    "gifCategoryFavorites": "Favoritos",
+    "gifCategoryTrending": "GIFs em alta",
+    "gifCategoryLove": "love",
+    "gifCategoryHappy": "happy",
+    "gifCategoryCry": "cry",
+    "gifCategoryYes": "yes",
+    "gifSearchFailed": "Falha ao buscar GIFs",
+    "assetTabEmojis": "Emojis",
+    "assetTabStickers": "Figurinhas",
+    "assetEmpty": "Sem itens nesta sala",
+    "replyAction": "Responder",
+    "replyingTo": "Respondendo a {user}",
+    "replyOriginalDeleted": "Mensagem original excluída",
+    "emptyMessage": "(mensagem vazia)",
     "paused": "Chat pausado — role para baixo para retomar",
     "muted": "Você está silenciado",
     "mutedUntil": "Silêncio expira em {time}"
+  },
+  "tour": {
+    "progress": "Passo {current} de {total}",
+    "back": "Voltar",
+    "next": "Próximo",
+    "finish": "Concluir",
+    "skip": "Pular",
+    "track": {
+      "core": "Tour Inicial",
+      "dashboard": "Guia da Home",
+      "explore": "Guia Explore",
+      "playlists": "Guia de Playlists",
+      "friends": "Guia de Amigos",
+      "shop": "Guia da Loja",
+      "settings": "Guia de Configurações",
+      "room": "Guia da Sala"
+    },
+    "welcome": {
+      "title": "Bem-vindo ao Borealise",
+      "text": "Vamos fazer um tour rápido. Você verá os pontos principais para começar com tudo."
+    },
+    "verify": {
+      "title": "Primeiro verifique seu e-mail",
+      "text": "Antes de continuar o onboarding, verifique seu e-mail para liberar toda a experiência.",
+      "resend": "Reenviar e-mail",
+      "openSettings": "Abrir configurações",
+      "recheck": "Já verifiquei, conferir de novo",
+      "resendSent": "E-mail de verificação enviado.",
+      "verifiedNow": "E-mail verificado. Perfeito, vamos continuar.",
+      "stillUnverified": "O e-mail ainda não foi verificado."
+    },
+    "profile": {
+      "title": "Este é seu cartão de perfil",
+      "text": "Aqui você acompanha nível e progresso de XP rapidamente."
+    },
+    "explore": {
+      "title": "Explore salas",
+      "text": "Navegue por comunidades ativas e entre em uma sala com a sua vibe."
+    },
+    "playlists": {
+      "title": "Monte suas playlists",
+      "text": "Prepare músicas antes de ser DJ para ter fila pronta quando chegar sua vez."
+    },
+    "settings": {
+      "title": "Configurações sempre à mão",
+      "text": "Conta, áudio, notificações e 2FA ficam aqui."
+    },
+    "settingsTabs": {
+      "title": "Configurações por seção",
+      "text": "Use as abas para alternar entre conta, aparência, áudio e assinatura."
+    },
+    "dashboardGuide": {
+      "intro": {
+        "title": "Sua base inicial",
+        "text": "O painel dá acesso rápido a salas, ações e atividade recente."
+      },
+      "actions": {
+        "title": "Comece por estas ações",
+        "text": "Daqui você pode ir ao Explore ou criar sua própria sala."
+      },
+      "featured": {
+        "title": "Salas em destaque ficam aqui",
+        "text": "Clique em qualquer card para entrar na sala e começar a ouvir."
+      }
+    },
+    "exploreGuide": {
+      "intro": {
+        "title": "Encontre sua próxima sala rápido",
+        "text": "Esta tela ajuda você a descobrir salas ativas em poucos segundos."
+      },
+      "search": {
+        "title": "Busque pelo nome da sala",
+        "text": "Digite um termo para filtrar salas com a sua vibe."
+      },
+      "filters": {
+        "title": "Filtre por gênero",
+        "text": "Use os filtros de gênero para focar no estilo que você quer agora."
+      },
+      "joinRoom": {
+        "title": "Entre pela grade de salas",
+        "text": "Clique em um card para entrar na sala e começar a ouvir/conversar na hora."
+      }
+    },
+    "roomGuide": {
+      "intro": {
+        "title": "Você está dentro da sala",
+        "text": "Aqui está o caminho mais rápido para entender o que fazer agora."
+      },
+      "stage": {
+        "title": "O palco mostra o que está tocando",
+        "text": "Acompanhe o DJ atual e o contexto da faixa na área principal."
+      },
+      "chat": {
+        "title": "Converse com a sala",
+        "text": "Use o chat para responder, reagir e interagir com outros ouvintes."
+      },
+      "player": {
+        "title": "Controle sua audição",
+        "text": "Use o player para volume/mute e ações de cabine quando disponíveis."
+      }
+    },
+    "playlistsGuide": {
+      "intro": {
+        "title": "Este é seu espaço de playlists",
+        "text": "Organize suas músicas aqui antes de entrar na cabine."
+      },
+      "create": {
+        "title": "Crie uma nova playlist",
+        "text": "Use este botão para montar sets separados por vibe."
+      },
+      "content": {
+        "title": "Organize e pesquise faixas",
+        "text": "Arraste, busque e importe para deixar sua fila pronta."
+      }
+    },
+    "friendsGuide": {
+      "intro": {
+        "title": "Construa sua rede social",
+        "text": "Amigos ajuda você a encontrar pessoas e entrar nas salas delas rapidamente."
+      },
+      "search": {
+        "title": "Busque por nome de usuário",
+        "text": "Pesquise e envie solicitações de amizade direto daqui."
+      },
+      "lists": {
+        "title": "Gerencie pedidos e amizades",
+        "text": "Aceite, recuse ou entre na sala de amigos ativos."
+      }
+    },
+    "shopGuide": {
+      "intro": {
+        "title": "Personalize seu avatar",
+        "text": "Na loja você desbloqueia e equipa visuais."
+      },
+      "tabs": {
+        "title": "Troque entre categorias",
+        "text": "Navegue entre avatares grátis, de nível e de assinatura."
+      },
+      "content": {
+        "title": "Desbloqueie e equipe avatares",
+        "text": "Clique nos cards para desbloquear elegíveis ou equipar os já liberados."
+      }
+    },
+    "settingsGuide": {
+      "intro": {
+        "title": "Configurações controlam sua conta",
+        "text": "Ajuste perfil, áudio, notificações, aparência e segurança aqui."
+      },
+      "tabs": {
+        "title": "Navegue pelas abas",
+        "text": "Use as abas para ir direto na seção desejada."
+      },
+      "panel": {
+        "title": "Edite nesta área",
+        "text": "Os controles da aba selecionada aparecem neste painel."
+      }
+    }
   },
   "dashboard": {
     "welcome": "Bem-vindo de volta,",
@@ -647,6 +872,11 @@
     "addByLinkSoundcloudInvalid": "Digite uma URL de faixa do SoundCloud válida (não um set)",
     "addByLinkResolveFailed": "Não foi possível resolver este link. Tente outro.",
     "previewTrack": "Prévia da música",
+    "trimTrack": "Aparar reprodução",
+    "trimStart": "Início (segundos)",
+    "trimEnd": "Fim (segundos)",
+    "trimDurationHint": "Duração da faixa: {duration}s. Deixe vazio para desativar um limite.",
+    "trimValidationError": "Valores de corte inválidos. Garanta que início < fim e ambos estejam dentro da duração da faixa.",
     "moveToTop": "Mover para o topo",
     "transferTrack": "Transferir para playlist",
     "transferTo": "Transferir para",
@@ -655,6 +885,7 @@
     "findInPlaylistPlaceholder": "Buscar música nesta playlist...",
     "matchesInPlaylist": "{count} correspondências",
     "import": "Importar",
+    "export": "Exportar",
     "searchPlaceholder": "Buscar no YouTube ou SoundCloud...",
     "searching": "Buscando...",
     "noSongs": "Nenhuma música nesta playlist",
@@ -886,7 +1117,28 @@
     "tabStaff": "Equipe",
     "tabUsers": "Usuários",
     "tabWaitlist": "Fila de Espera",
+    "tabAssets": "Itens",
     "tabAudit": "Registro de Auditoria",
+    "assetsEmojiTitle": "Emojis personalizados",
+    "assetsStickerTitle": "Figurinhas personalizadas",
+    "assetsRefresh": "Atualizar",
+    "assetsChooseFile": "Escolher arquivo",
+    "assetsAnimated": "Animado",
+    "assetsCreateEmoji": "Criar emoji",
+    "assetsCreateSticker": "Criar figurinha",
+    "assetsDelete": "Excluir",
+    "assetsNoEmojis": "Nenhum emoji personalizado ainda.",
+    "assetsNoStickers": "Nenhuma figurinha personalizada ainda.",
+    "assetsEmojiNamePlaceholder": "Nome do emoji",
+    "assetsStickerNamePlaceholder": "Nome da figurinha",
+    "assetsEmojiCreated": "Emoji criado.",
+    "assetsEmojiDeleted": "Emoji excluído.",
+    "assetsStickerCreated": "Figurinha criada.",
+    "assetsStickerDeleted": "Figurinha excluída.",
+    "assetsEmojiCreateFailed": "Falha ao criar emoji.",
+    "assetsEmojiDeleteFailed": "Falha ao excluir emoji.",
+    "assetsStickerCreateFailed": "Falha ao criar figurinha.",
+    "assetsStickerDeleteFailed": "Falha ao excluir figurinha.",
     "waitlistLoading": "Carregando...",
     "waitlistEmpty": "Ninguém está na fila de espera.",
     "auditLoading": "Carregando...",

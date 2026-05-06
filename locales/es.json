@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "label": "English",
-    "flag": "us"
+    "label": "Español",
+    "flag": "es"
   },
   "banner": {
     "alpha": {
@@ -58,7 +58,7 @@
     "noAccount": "Don't have an account?",
     "haveAccount": "Already have an account?",
     "loginWithDiscord": "Login with Discord",
-    "continueAsGuest": "Continue as guest",
+    "continueAsGuest": "Continuar como invitado",
     "or": "or",
     "placeholders": {
       "username": "Enter your username",
@@ -873,11 +873,11 @@
     "addByLinkSoundcloudInvalid": "Please enter a valid SoundCloud track URL (not a set)",
     "addByLinkResolveFailed": "Could not resolve this link. Please try another one.",
     "previewTrack": "Preview Track",
-    "trimTrack": "Trim playback",
-    "trimStart": "Start (seconds)",
-    "trimEnd": "End (seconds)",
-    "trimDurationHint": "Track duration: {duration}s. Leave empty to disable a bound.",
-    "trimValidationError": "Trim values are invalid. Ensure start < end and both are within track duration.",
+    "trimTrack": "Recortar reproducción",
+    "trimStart": "Inicio (segundos)",
+    "trimEnd": "Fin (segundos)",
+    "trimDurationHint": "Duración de la pista: {duration}s. Déjalo vacío para desactivar un límite.",
+    "trimValidationError": "Los valores de recorte son inválidos. Asegúrate de que inicio < fin y ambos estén dentro de la duración de la pista.",
     "moveToTop": "Move to top",
     "transferTrack": "Transfer to playlist",
     "transferTo": "Transfer to",

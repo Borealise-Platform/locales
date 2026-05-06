@@ -20,6 +20,7 @@
     "cancel": "Anuluj",
     "back": "Wstecz",
     "delete": "Usuń",
+    "unknownUser": "Nieznany użytkownik",
     "edit": "Edytuj",
     "loading": "Ładowanie...",
     "error": "Wystąpił błąd",
@@ -57,6 +58,7 @@
     "noAccount": "Nie masz konta?",
     "haveAccount": "Masz już konto?",
     "loginWithDiscord": "Zaloguj się przez Discord",
+    "continueAsGuest": "Kontynuuj jako gość",
     "or": "lub",
     "placeholders": {
       "username": "Wprowadź swoją nazwę użytkownika",
@@ -77,6 +79,18 @@
     },
     "discord": {
       "connecting": "Łączenie z Discord..."
+    },
+    "secondFactor": {
+      "hintEmail": "Wpisz kod wysłany na Twój e-mail.",
+      "hintTotp": "Wpisz kod z aplikacji uwierzytelniającej.",
+      "codeLabel": "Kod weryfikacyjny",
+      "codeInputPlaceholder": "123456 lub kod zapasowy",
+      "trustDevice": "Zaufaj temu urządzeniu przez 30 dni",
+      "verify": "Zweryfikuj",
+      "errors": {
+        "codeRequired": "Wpisz kod weryfikacyjny.",
+        "invalidCode": "Nieprawidłowy kod weryfikacyjny."
+      }
     },
     "verify": {
       "loading": "Weryfikowanie twojego emaila...",
@@ -470,6 +484,7 @@
     "expand": "Rozwiń pasek boczny",
     "room": {
       "stage": "Scena",
+      "stream": "Streaming",
       "waitlist": "Kolejka",
       "users": "Użytkownicy",
       "history": "Historia",
@@ -511,7 +526,36 @@
       "deleteConfirmPlaceholder": "Wpisz {username}",
       "deleteSuccess": "Twoje konto zostało usunięte.",
       "logout": "Wyloguj się",
-      "logoutConfirm": "Czy na pewno chcesz się wylogować?"
+      "logoutConfirm": "Czy na pewno chcesz się wylogować?",
+      "twoFactor": {
+        "title": "Uwierzytelnianie dwuskładnikowe",
+        "statusEnabled": "Włączone",
+        "statusDisabled": "Wyłączone",
+        "disabledHint": "Dodaj dodatkowy krok weryfikacji przy logowaniu.",
+        "methodHint": "Metoda: {method}",
+        "setupAction": "Skonfiguruj 2FA",
+        "disableAction": "Wyłącz 2FA",
+        "chooseMethodTitle": "Wybierz metodę weryfikacji",
+        "methodTotp": "Aplikacja uwierzytelniająca (TOTP)",
+        "methodEmail": "Kod e-mail",
+        "methodUnknown": "Nieznana",
+        "verifyTitle": "Zweryfikuj konfigurację",
+        "verifyTotpHint": "Zeskanuj lub wpisz ten sekret w aplikacji uwierzytelniającej, a następnie wpisz aktualny kod.",
+        "verifyEmailHint": "Wysłaliśmy kod weryfikacyjny na Twój e-mail. Wpisz go, aby zakończyć konfigurację.",
+        "qrAlt": "Kod QR TOTP",
+        "qrGenerateFailedManual": "Nie udało się wygenerować kodu QR. Użyj sekretu ręcznie.",
+        "codePlaceholder": "Kod weryfikacyjny",
+        "verifyAndEnable": "Zweryfikuj i włącz",
+        "backupTitle": "Zapisz kody zapasowe",
+        "backupHint": "Przechowuj te kody bezpiecznie. Każdy kod można użyć tylko raz.",
+        "doneAction": "Gotowe",
+        "setupStartFailed": "Nie udało się rozpocząć konfiguracji 2FA.",
+        "setupVerifyFailed": "Weryfikacja konfiguracji nie powiodła się.",
+        "enabledSuccess": "Uwierzytelnianie dwuskładnikowe zostało włączone.",
+        "invalidCode": "Nieprawidłowy kod weryfikacyjny.",
+        "disableFailed": "Nie udało się wyłączyć 2FA.",
+        "disabledSuccess": "Uwierzytelnianie dwuskładnikowe zostało wyłączone."
+      }
     },
     "audio": {
       "title": "Ustawienia dźwięku",
@@ -632,7 +676,9 @@
   "stage": {
     "waitingForDJ": "Czekam na DJ-a...",
     "enlargeVideo": "Powiększ wideo",
-    "minimizeVideo": "Zmniejsz wideo"
+    "minimizeVideo": "Zmniejsz wideo",
+    "enterFullscreen": "Tryb pełnoekranowy",
+    "exitFullscreen": "Wyjdź z pełnego ekranu"
   },
   "chat": {
     "title": "Czat na żywo",
@@ -647,9 +693,189 @@
     "usersEmpty": "Nikt tu jeszcze nie jest.",
     "nowPlaying": "Teraz gra",
     "searchEmoji": "Szukaj emoji...",
+    "emojiTabNative": "Emoji",
+    "emojiTabRoom": "Pokój",
+    "roomEmojiEmpty": "Brak emoji pokoju",
+    "gifSearchPlaceholder": "Szukaj GIF-ów",
+    "gifSearching": "Wyszukiwanie...",
+    "gifEmpty": "Nie znaleziono GIF-ów",
+    "gifFavorite": "Dodaj do ulubionych",
+    "gifUnfavorite": "Usuń z ulubionych",
+    "gifFavoritesEmpty": "Brak ulubionych GIF-ów",
+    "gifCategoryFavorites": "Ulubione",
+    "gifCategoryTrending": "Popularne GIF-y",
+    "gifCategoryLove": "love",
+    "gifCategoryHappy": "happy",
+    "gifCategoryCry": "cry",
+    "gifCategoryYes": "yes",
+    "gifSearchFailed": "Wyszukiwanie GIF-ów nie powiodło się",
+    "assetTabEmojis": "Emoji",
+    "assetTabStickers": "Naklejki",
+    "assetEmpty": "Brak zasobów w tym pokoju",
+    "replyAction": "Odpowiedz",
+    "replyingTo": "Odpowiedź do {user}",
+    "replyOriginalDeleted": "Oryginalna wiadomość została usunięta",
+    "emptyMessage": "(pusta wiadomość)",
     "paused": "Czat wstrzymany — przewiń w dół, aby wznowić",
     "muted": "Masz wyciszenie",
     "mutedUntil": "Wyciszenie zakończy się za {time}"
+  },
+  "tour": {
+    "progress": "Krok {current} z {total}",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "finish": "Zakończ",
+    "skip": "Pomiń",
+    "track": {
+      "core": "Tutorial Startowy",
+      "dashboard": "Przewodnik Strony Głównej",
+      "explore": "Przewodnik Explore",
+      "playlists": "Przewodnik Playlist",
+      "friends": "Przewodnik Znajomych",
+      "shop": "Przewodnik Sklepu",
+      "settings": "Przewodnik Ustawień",
+      "room": "Przewodnik Pokoju"
+    },
+    "welcome": {
+      "title": "Witamy w Borealise",
+      "text": "Krótki onboarding na start. Pokażemy najważniejsze miejsca, żeby pierwsza sesja była płynna."
+    },
+    "verify": {
+      "title": "Najpierw zweryfikuj e-mail",
+      "text": "Zanim przejdziesz dalej w samouczku, zweryfikuj e-mail, aby odblokować pełne możliwości konta.",
+      "resend": "Wyślij ponownie",
+      "openSettings": "Otwórz ustawienia",
+      "recheck": "Zweryfikowane, sprawdź ponownie",
+      "resendSent": "Wysłano wiadomość weryfikacyjną.",
+      "verifiedNow": "E-mail zweryfikowany. Super, lecimy dalej.",
+      "stillUnverified": "E-mail nadal nie jest zweryfikowany."
+    },
+    "profile": {
+      "title": "To Twoja karta profilu",
+      "text": "Tutaj widzisz poziom i postęp XP. Szybko sprawdzisz stan konta."
+    },
+    "explore": {
+      "title": "Eksploruj pokoje",
+      "text": "Przeglądaj aktywne społeczności i dołącz tam, gdzie klimat pasuje do Ciebie."
+    },
+    "playlists": {
+      "title": "Buduj playlisty",
+      "text": "Przygotuj utwory wcześniej, żeby Twoja kolejka była gotowa, gdy wejdziesz na DJ-kę."
+    },
+    "settings": {
+      "title": "Ustawienia masz zawsze pod ręką",
+      "text": "Konto, audio, powiadomienia i konfiguracja 2FA są dostępne tutaj."
+    },
+    "settingsTabs": {
+      "title": "Ustawienia są podzielone na sekcje",
+      "text": "Przełączaj zakładki, aby szybko przechodzić między kontem, wyglądem, audio i subskrypcją."
+    },
+    "dashboardGuide": {
+      "intro": {
+        "title": "To Twoja baza startowa",
+        "text": "Panel daje szybki dostęp do pokoi, akcji i ostatniej aktywności."
+      },
+      "actions": {
+        "title": "Zacznij od tych akcji",
+        "text": "Stąd od razu przejdziesz do Explore albo utworzysz własny pokój."
+      },
+      "featured": {
+        "title": "Tu są polecane pokoje",
+        "text": "Kliknij kartę pokoju, aby wejść i od razu zacząć słuchać."
+      }
+    },
+    "exploreGuide": {
+      "intro": {
+        "title": "Szybko znajdź następny pokój",
+        "text": "Ten widok pomaga szybko odkrywać aktywne społeczności."
+      },
+      "search": {
+        "title": "Szukaj po nazwie pokoju",
+        "text": "Wpisz frazę, aby zawęzić listę do klimatu, którego szukasz."
+      },
+      "filters": {
+        "title": "Filtruj po gatunku",
+        "text": "Użyj filtrów gatunków, aby od razu trafić w odpowiednią muzykę."
+      },
+      "joinRoom": {
+        "title": "Wchodzisz klikając kartę",
+        "text": "Kliknij kartę pokoju, aby od razu dołączyć do odsłuchu i czatu."
+      }
+    },
+    "roomGuide": {
+      "intro": {
+        "title": "Jesteś już w pokoju",
+        "text": "Krótko pokażemy, co warto zrobić dalej."
+      },
+      "stage": {
+        "title": "Scena pokazuje to, co leci",
+        "text": "Tutaj śledzisz aktywnego DJ-a i aktualny utwór."
+      },
+      "chat": {
+        "title": "Czat to centrum interakcji",
+        "text": "Rozmawiaj, odpowiadaj na wiadomości i reaguj na to, co dzieje się w pokoju."
+      },
+      "player": {
+        "title": "Steruj odsłuchem",
+        "text": "Na playerze ustawisz głośność, mute i akcje związane z DJ-ką, gdy są dostępne."
+      }
+    },
+    "playlistsGuide": {
+      "intro": {
+        "title": "To Twoje centrum playlist",
+        "text": "Tutaj przygotujesz utwory, zanim wejdziesz na DJ-kę."
+      },
+      "create": {
+        "title": "Utwórz nową playlistę",
+        "text": "Tym przyciskiem zrobisz osobne sety pod różne klimaty."
+      },
+      "content": {
+        "title": "Układaj i wyszukuj utwory",
+        "text": "Przeciągaj, szukaj i importuj, aby mieć gotową kolejkę."
+      }
+    },
+    "friendsGuide": {
+      "intro": {
+        "title": "Buduj swoją społeczność",
+        "text": "Znajomi pomagają szybko znaleźć ludzi i dołączyć do ich pokoi."
+      },
+      "search": {
+        "title": "Szukaj po nazwie użytkownika",
+        "text": "Wyszukuj i wysyłaj zaproszenia bezpośrednio stąd."
+      },
+      "lists": {
+        "title": "Zarządzaj zaproszeniami i znajomymi",
+        "text": "Akceptuj, odrzucaj albo dołączaj do znajomych grających w pokojach."
+      }
+    },
+    "shopGuide": {
+      "intro": {
+        "title": "Personalizuj wygląd awatara",
+        "text": "W sklepie odblokowujesz i zakładasz nowe style."
+      },
+      "tabs": {
+        "title": "Przełączaj kategorie nagród",
+        "text": "Przechodź między darmowymi, levelowymi i subskrypcyjnymi awatarami."
+      },
+      "content": {
+        "title": "Odblokuj i załóż awatary",
+        "text": "Klikaj karty awatarów, aby odblokować lub założyć dostępny wygląd."
+      }
+    },
+    "settingsGuide": {
+      "intro": {
+        "title": "Ustawienia kontrolują Twoje konto",
+        "text": "Tutaj skonfigurujesz profil, audio, powiadomienia, wygląd i bezpieczeństwo."
+      },
+      "tabs": {
+        "title": "Nawiguj po zakładkach",
+        "text": "Zakładki pozwalają od razu przejść do wybranej sekcji."
+      },
+      "panel": {
+        "title": "Edytuj szczegóły w panelu",
+        "text": "Tutaj pojawiają się opcje aktywnej zakładki."
+      }
+    }
   },
   "dashboard": {
     "welcome": "Witaj ponownie,",
@@ -713,6 +939,11 @@
     "addByLinkSoundcloudInvalid": "Podaj prawidłowy adres URL utworu SoundCloud (nie setu)",
     "addByLinkResolveFailed": "Nie udało się odczytać tego linku. Spróbuj innego.",
     "previewTrack": "Podgląd utworu",
+    "trimTrack": "Przytnij odtwarzanie",
+    "trimStart": "Początek (sekundy)",
+    "trimEnd": "Koniec (sekundy)",
+    "trimDurationHint": "Długość utworu: {duration}s. Pozostaw puste, aby wyłączyć granicę.",
+    "trimValidationError": "Nieprawidłowe wartości przycięcia. Upewnij się, że początek < koniec i oba mieszczą się w długości utworu.",
     "moveToTop": "Przenieś na górę",
     "transferTrack": "Przenieś do playlisty",
     "transferTo": "Przenieś do",
@@ -721,6 +952,7 @@
     "findInPlaylistPlaceholder": "Znajdź utwór w playliście...",
     "matchesInPlaylist": "Dopasowania: {count}",
     "import": "Importuj",
+    "export": "Eksportuj",
     "searchPlaceholder": "Szukaj na YouTube lub SoundCloud...",
     "searching": "Szukam...",
     "noSongs": "Brak utworów na tej playliście",
@@ -787,6 +1019,7 @@
     "notHost": "Tylko gospodarz lub współgospodarz może edytować ustawienia pokoju.",
     "sectionGeneral": "Ogólne",
     "sectionAccess": "Dostęp",
+    "sectionMode": "Tryb pokoju",
     "sectionWaitlist": "Kolejka",
     "fieldName": "Nazwa pokoju",
     "fieldNamePlaceholder": "Mój niesamowity pokój",
@@ -801,11 +1034,44 @@
     "fieldPrivateDesc": "Tylko zaproszeni użytkownicy mogą dołączyć.",
     "fieldNsfw": "Treści NSFW",
     "fieldNsfwDesc": "Pokój może zawierać treści dla dorosłych.",
+    "fieldMode": "Tryb odtwarzania",
+    "fieldModeHint": "Wybierz, jak ma działać ten pokój.",
+    "modeStandard": "Standard",
+    "modeStandardDesc": "Klasyczny pokój z normalną kolejką.",
+    "modeDjLive": "DJ Live (Stage)",
+    "modeDjLiveDesc": "Tryb sceny live z RTMP dla hosta/współhosta.",
+    "modeDjLiveWarning": "DJ Live wymaga integracji RTMP/webhook. Tylko host i współhost mogą nadawać.",
     "fieldWaitlistLocked": "Zablokuj kolejkę",
     "fieldWaitlistLockedDesc": "Uniemożliwia nowym użytkownikom dołączenie do kolejki DJ.",
     "fieldWaitlistCycle": "Rotacja kolejki",
     "fieldWaitlistCycleDesc": "DJ-e są przenoszeni na koniec kolejki po swojej turze.",
     "saveSuccess": "Ustawienia pokoju zapisane."
+  },
+  "roomStream": {
+    "title": "Streaming na żywo",
+    "subtitle": "Zarządzaj sesją streamu i danymi ingestu dla tego pokoju.",
+    "notDjLive": "Ta zakładka jest dostępna tylko w trybie DJ Live.",
+    "status": "Status",
+    "statusOffline": "Offline",
+    "statusStarting": "Uruchamianie",
+    "statusLive": "Na żywo",
+    "statusError": "Błąd",
+    "obsServerUrl": "URL serwera OBS",
+    "hlsUrl": "URL odtwarzania HLS",
+    "streamName": "Nazwa streamu RTMP",
+    "streamKey": "Stream key",
+    "ingestUrl": "URL ingestu RTMP",
+    "copied": "Skopiowano",
+    "copy": "Kopiuj",
+    "refresh": "Odśwież status",
+    "start": "Uruchom sesję streamu",
+    "starting": "Uruchamianie...",
+    "stop": "Zatrzymaj sesję streamu",
+    "stopping": "Zatrzymywanie...",
+    "hostOnlyHint": "Tylko host lub współhost może uruchamiać i zatrzymywać stream.",
+    "startSuccess": "Sesja streamu przygotowana. Skonfiguruj encoder i zacznij nadawać.",
+    "stopSuccess": "Sesja streamu zatrzymana.",
+    "statusUpdated": "Status streamu zaktualizowany."
   },
   "roomCommunity": {
     "title": "Informacje o społeczności",
@@ -886,7 +1152,28 @@
     "tabStaff": "Personel",
     "tabUsers": "Użytkownicy",
     "tabWaitlist": "Lista oczekujących",
+    "tabAssets": "Zasoby",
     "tabAudit": "Dziennik audytu",
+    "assetsEmojiTitle": "Niestandardowe emoji",
+    "assetsStickerTitle": "Niestandardowe naklejki",
+    "assetsRefresh": "Odśwież",
+    "assetsChooseFile": "Wybierz plik",
+    "assetsAnimated": "Animowane",
+    "assetsCreateEmoji": "Utwórz emoji",
+    "assetsCreateSticker": "Utwórz naklejkę",
+    "assetsDelete": "Usuń",
+    "assetsNoEmojis": "Brak niestandardowych emoji.",
+    "assetsNoStickers": "Brak niestandardowych naklejek.",
+    "assetsEmojiNamePlaceholder": "Nazwa emoji",
+    "assetsStickerNamePlaceholder": "Nazwa naklejki",
+    "assetsEmojiCreated": "Utworzono emoji.",
+    "assetsEmojiDeleted": "Usunięto emoji.",
+    "assetsStickerCreated": "Utworzono naklejkę.",
+    "assetsStickerDeleted": "Usunięto naklejkę.",
+    "assetsEmojiCreateFailed": "Nie udało się utworzyć emoji.",
+    "assetsEmojiDeleteFailed": "Nie udało się usunąć emoji.",
+    "assetsStickerCreateFailed": "Nie udało się utworzyć naklejki.",
+    "assetsStickerDeleteFailed": "Nie udało się usunąć naklejki.",
     "waitlistLoading": "Ładowanie...",
     "waitlistEmpty": "Nikt nie jest na liście oczekujących.",
     "auditLoading": "Ładowanie...",
