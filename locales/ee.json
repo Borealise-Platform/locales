@@ -1,0 +1,759 @@
+{
+  "_meta": {
+    "label": "Estonian",
+    "flag": "ee"
+  },
+  "banner": {
+    "alpha": {
+      "badge": "Varajane alfa",
+      "text": "Borealise on varajases arendusjärgus. Oodake vigu, puuduvaid funktsioone ja murrangulisi muudatusi."
+    },
+    "unverified": {
+      "text": "Teie e-posti aadress pole kinnitatud.",
+      "action": "Kinnitamiseks klõpsake siin",
+      "resend": "Klõpsake meili uuesti saatmiseks"
+    }
+  },
+  "common": {
+    "save": "Salvesta",
+    "saving": "Salvestamine...",
+    "cancel": "Tühista",
+    "back": "Tagasi",
+    "delete": "Kustuta",
+    "edit": "Redigeeri",
+    "loading": "Laadimine...",
+    "error": "Tekkis viga",
+    "success": "Õnnestumine",
+    "user": "Kasutaja"
+  },
+  "titles": {
+    "home": "Avaleht",
+    "login": "Sisselogimine",
+    "register": "Registreerima",
+    "verify": "Kinnita",
+    "dashboard": "Armatuurlaud",
+    "explore": "Avasta ruume",
+    "room": "Tuba",
+    "roomSettings": "Toa seaded",
+    "roomHistory": "Laulu ajalugu",
+    "roomModeration": "Modereerimine",
+    "settings": "Seaded",
+    "shop": "Avatari pood",
+    "friends": "Sõbrad"
+  },
+  "auth": {
+    "login": "Sisselogimine",
+    "logout": "Logi välja",
+    "register": "Registreerima",
+    "email": "E-post",
+    "password": "Parool",
+    "username": "Kasutajanimi",
+    "confirmPassword": "Kinnita parool",
+    "back": "tagasi",
+    "welcomeTitle": "Tere tulemast Borealise'i",
+    "welcomeSubtitle": "Sotsiaalne muusikaplatvorm, kus saad DJ-na töötada, avastada ja luua sidemeid.",
+    "noAccount": "Sul pole kontot?",
+    "haveAccount": "Kas sul on juba konto?",
+    "loginWithDiscord": "Logi sisse Ebakõlaga",
+    "or": "või",
+    "placeholders": {
+      "username": "Sisesta oma kasutajanimi",
+      "usernameOrEmail": "Sisesta oma kasutajanimi või e-posti aadress",
+      "email": "Sisesta oma e-posti aadress",
+      "password": "Sisesta oma parool",
+      "createPassword": "Loo parool",
+      "confirmPassword": "Kinnitage oma parool"
+    },
+    "errors": {
+      "required": "See väli on kohustuslik",
+      "invalidEmail": "Palun sisestage kehtiv e-posti aadress",
+      "passwordMismatch": "Paroolid ei ühti",
+      "minLength": "Peab olema vähemalt {min} tähemärki",
+      "maxLength": "Võib olla maksimaalselt {max} tähemärki",
+      "fillAllFields": "Palun täitke kõik väljad",
+      "loginFailed": "Sisselogimine ebaõnnestus. Palun proovige uuesti."
+    },
+    "discord": {
+      "connecting": "Ebakõlaga ühenduse loomine..."
+    },
+    "verify": {
+      "loading": "Teie e-posti aadressi kinnitamine...",
+      "loadingSubtitle": "Palun oodake, kuni me teie e-posti aadressi kinnitame.",
+      "success": "Meiliaadress kinnitatud!",
+      "successSubtitle": "Teie konto on edukalt kinnitatud. Nüüd saate kasutada kõiki Borealise'i funktsioone.",
+      "error": "Kinnitamine ebaõnnestus",
+      "invalid": "Kehtetu link",
+      "invalidSubtitle": "See kinnituslink on kehtetu või aegunud.",
+      "noToken": "Kinnituskoodi pole esitatud.",
+      "unexpectedError": "Tekkis ootamatu viga. Palun proovige hiljem uuesti.",
+      "buttonGoToLogin": "Mine sisselogimisele",
+      "buttonGoToApp": "Mine rakendusse",
+      "buttonCreateAccount": "Loo uus konto"
+    }
+  },
+  "errors": {
+    "UNKNOWN_ERROR": "Tekkis tundmatu viga",
+    "VALIDATION_ERROR": "Esitatud sisend on sobimatu",
+    "NOT_FOUND": "Ressurssi ei leitud",
+    "FORBIDDEN": "Juurdepääs keelatud",
+    "RATE_LIMITED": "Liiga palju päringuid. Palun proovige hiljem uuesti.",
+    "SERVER_ERROR": "Serveri viga. Palun proovige hiljem uuesti.",
+    "NETWORK_ERROR": "Serveriga ei saa ühendust luua. Palun kontrollige oma ühendust.",
+
+    "AUTH_INVALID_CREDENTIALS": "Kehtetu kasutajanimi/e-posti aadress või parool",
+    "AUTH_INVALID_EMAIL": "Palun sisestage kehtiv e-posti aadress",
+    "AUTH_INVALID_USERNAME": "Kasutajanimi peab olema 3–32 tähemärki pikk, sisaldades ainult tähti ja numbreid ning alakriipse.",
+    "AUTH_INVALID_PASSWORD": "Parool peab olema 8–128 tähemärki pikk",
+    "AUTH_EMAIL_EXISTS": "See e-posti aadress on juba registreeritud",
+    "AUTH_USERNAME_EXISTS": "See kasutajanimi on juba võetud",
+    "AUTH_ACCOUNT_DISABLED": "Teie konto on keelatud",
+    "AUTH_TOKEN_REQUIRED": "Autentimine on vajalik",
+    "AUTH_TOKEN_INVALID": "Teie seanss on aegunud. Palun logige uuesti sisse.",
+    "AUTH_TOKEN_EXPIRED": "Teie seanss on aegunud. Palun logige uuesti sisse.",
+    "AUTH_REFRESH_TOKEN_REQUIRED": "Värskendusluba on nõutav",
+    "AUTH_REFRESH_TOKEN_INVALID": "Kehtetu värskendusluba",
+    "AUTH_REFRESH_TOKEN_REVOKED": "Teie seanss on tühistatud. Palun logige uuesti sisse.",
+    "AUTH_LOGIN_REQUIRED": "Palun sisestage oma kasutajanimi/e-posti aadress ja parool",
+    "AUTH_REGISTRATION_FAILED": "Registreerimine ebaõnnestus. Palun proovige uuesti.",
+    "AUTH_LOGIN_FAILED": "Sisselogimine ebaõnnestus. Palun proovige uuesti.",
+    "AUTH_LOGOUT_FAILED": "Väljalogimine ebaõnnestus. Palun proovige uuesti.",
+    "AUTH_EMAIL_NOT_VERIFIED": "Teie e-posti aadress pole kinnitatud. Palun kontrollige oma postkasti.",
+    "AUTH_VERIFICATION_TOKEN_INVALID": "See kinnituslink on kehtetu.",
+    "AUTH_VERIFICATION_TOKEN_EXPIRED": "See kinnituslink on aegunud. Palun taotle uus.",
+    "AUTH_ALREADY_VERIFIED": "See e-posti aadress on juba kinnitatud.",
+    "AUTH_VERIFICATION_SEND_FAILED": "Kinnitusmeili saatmine ebaõnnestus. Palun proovige hiljem uuesti.",
+    "AUTH_VERIFICATION_RATE_LIMITED": "Palun oodake enne uue kinnitusmeili taotlemist.",
+
+    "AUTH_DISCORD_EMAIL_EXISTS": "Selle e-posti aadressiga konto on juba olemas. Palun logi sisse ja ühenda Discord seadete kaudu.",
+    "AUTH_DISCORD_ALREADY_CONNECTED": "See Ebakõla konto on juba ühendatud.",
+    "AUTH_DISCORD_NOT_CONNECTED": "Ühtegi Ebakõla kontot pole ühendatud.",
+    "AUTH_DISCORD_ACCOUNT_TAKEN": "See Discordi konto on juba teise kasutajaga lingitud.",
+    "AUTH_DISCORD_FAILED": "Discordi autentimine ebaõnnestus. Palun proovi uuesti.",
+    "AUTH_DISCORD_STATE_INVALID": "Vigane OAuthi olek. Palun proovige uuesti.",
+
+    "USER_NOT_FOUND": "Kasutajat ei leitud",
+    "USER_UPDATE_FAILED": "Profiili värskendamine ebaõnnestus",
+    "USER_DELETE_FAILED": "Konto kustutamine ebaõnnestus",
+    "USER_INVALID_DISPLAY_NAME": "Kuvatav nimi peab olema 1–64 tähemärki pikk",
+    "USER_INVALID_BIO": "Tutvustus peab olema kuni 500 tähemärki pikk",
+
+    "PERMISSION_DENIED": "Teil pole selleks luba",
+    "PERMISSION_ADMIN_REQUIRED": "Vajalik on administraatori juurdepääs",
+    "PERMISSION_MOD_REQUIRED": "Moderaatori juurdepääs on vajalik",
+    "PERMISSION_CANNOT_MODIFY_SELF": "Sa ei saa seda toimingut enda peal teha",
+    "PERMISSION_CANNOT_MODIFY_HIGHER_ROLE": "Sa ei saa muuta kasutajat, kellel on võrdne või kõrgem roll.",
+
+    "ROLE_INVALID": "Määratud roll on sobimatu",
+
+    "ROOM_NOT_FOUND": "Tuba ei leitud",
+    "ROOM_SLUG_EXISTS": "See toa URL on juba võetud",
+    "ROOM_SLUG_INVALID": "Toa URL peab olema 3–32 tähemärki pikk, sisaldades ainult väiketähti, numbreid ja sidekriipse.",
+    "ROOM_NAME_INVALID": "Toa nimi peab olema 3–50 tähemärki pikk",
+    "ROOM_CREATE_FAILED": "Ruumi loomine ebaõnnestus. Palun proovige uuesti.",
+    "ROOM_JOIN_FAILED": "Ruumiga liitumine ebaõnnestus. Palun proovige uuesti.",
+    "ROOM_LEAVE_FAILED": "Ruumist lahkumine ebaõnnestus. Palun proovige uuesti.",
+
+    "PLAYLIST_NOT_FOUND": "Esitusloendit ei leitud",
+    "PLAYLIST_CREATE_FAILED": "Esitusloendi loomine ebaõnnestus",
+    "PLAYLIST_UPDATE_FAILED": "Esitusloendi värskendamine ebaõnnestus",
+    "PLAYLIST_DELETE_FAILED": "Esitusloendi kustutamine ebaõnnestus",
+    "PLAYLIST_ITEM_ADD_FAILED": "Üksuse lisamine esitusloendisse ebaõnnestus",
+    "PLAYLIST_ITEM_REMOVE_FAILED": "Esitusloendist üksuse eemaldamine ebaõnnestus",
+    "PLAYLIST_ITEM_LIMIT_REACHED": "Esitusloendis on maksimaalne arv üksusi",
+    "PLAYLIST_ACTIVATE_FAILED": "Esitusloendi aktiveerimine ebaõnnestus",
+
+    "IMPORT_INVALID_URL": "Kehtetu esitusloendi URL",
+    "IMPORT_PLAYLIST_NOT_FOUND": "Välist esitusloendit ei leitud",
+    "IMPORT_PLAYLIST_PRIVATE": "See esitusloend on privaatne või pole saadaval",
+    "IMPORT_FETCH_FAILED": "Esitusloendi toomine ebaõnnestus. Proovige uuesti.",
+    "IMPORT_NO_TRACKS": "Esitusloendist ei leitud lugusid",
+    "IMPORT_UNSUPPORTED_SOURCE": "Toetamata esitusloendi allikas",
+
+    "BOOTH_NOT_IN_WAITLIST": "Teid ei ole ootejärjekorras",
+    "BOOTH_ALREADY_IN_WAITLIST": "Sa oled juba ootenimekirjas",
+    "BOOTH_NO_DJ": "Hetkel ei mängi ükski DJ",
+    "BOOTH_NO_ACTIVE_PLAYLIST": "Ootenimekirjaga liitumiseks on vaja aktiivset esitusloendit",
+    "BOOTH_PLAYLIST_EMPTY": "Teie aktiivne esitusloend on tühi",
+    "BOOTH_WAITLIST_FULL": "Ootejärjekord on täis",
+    "BOOTH_WAITLIST_LOCKED": "Ootejärjekord on hetkel lukus",
+
+    "WAITLIST_ALREADY_IN": "Sa oled juba ootenimekirjas",
+    "WAITLIST_ALREADY_DJING": "Sa mängimas praegu! Oota oma käigu lõppu.",
+    "WAITLIST_LOCKED": "Ootejärjekord on hetkel lukus",
+    "WAITLIST_NO_PLAYLIST": "Ootenimekirjaga liitumiseks on vaja aktiivset esitusloendit",
+    "WAITLIST_EMPTY_PLAYLIST": "Teie aktiivne esitusloend on tühi",
+    "WAITLIST_NOT_IN": "Teid ei ole ootejärjekorras",
+
+    "VOTE_ALREADY_VOTED": "Oled selle loo poolt juba hääletanud",
+    "VOTE_CANNOT_VOTE_OWN": "Sa ei saa oma loo poolt hääletada",
+
+    "CHAT_MESSAGE_TOO_LONG": "Sõnum on liiga pikk",
+    "CHAT_RATE_LIMITED": "Sa saadad sõnumeid liiga kiiresti"
+  },
+  "booth": {
+    "skip": {
+      "title": "Vahelejätmise valikud",
+      "message": "Mida sa tahaksid teha?",
+      "skipSong": "Jäta järgmise loo juurde",
+      "leaveBooth": "Lahku DJ boksist",
+      "skipHint": "Jätka DJ-na mängimist järgmise loo juurde või lahku kabiinist, et teised saaksid mängida."
+    },
+    "grab": {
+      "title": "Haara Laulu",
+      "message": "Valige esitusloend, kuhu see lugu lisada:",
+      "active": "Aktiivne"
+    }
+  },
+  "notifications": {
+    "auth": {
+      "loginSuccess": "Tere tulemast tagasi, {username}!",
+      "registerSuccess": "Konto loodud edukalt! Tere tulemast Borealise'i.",
+      "logoutSuccess": "Teid on välja logitud",
+      "sessionExpired": "Teie seanss on aegunud. Palun logige uuesti sisse.",
+      "verificationEmailSent": "Kinnitusmeil saadetud! Kontrollige oma postkasti.",
+      "verificationSendFailed": "Kinnitusmeili saatmine ebaõnnestus. Palun proovige hiljem uuesti.",
+      "discordConnected": "Discordi konto ühendamine õnnestus!",
+      "discordDisconnected": "Discordi konto lahti ühendatud."
+    },
+    "room": {
+      "joinSuccess": "Liitusin ruumiga {roomName}",
+      "leaveSuccess": "Lahkus toast",
+      "createSuccess": "Tuba \"{roomName}\" on edukalt loodud",
+      "kicked": "Sind visati ruumist {roomName} välja",
+      "banned": "Sind blokeeriti ruumist {roomName}"
+    },
+    "playlist": {
+      "createSuccess": "Esitusloend \"{name}\" on loodud",
+      "deleteSuccess": "Esitusloend kustutatud",
+      "updateSuccess": "Esitusloend on uuendatud",
+      "activateSuccess": "Esitusloend \"{name}\" on nüüd aktiivne",
+      "itemAdded": "Lisatud esitusloendisse",
+      "itemRemoved": "Esitusloendist eemaldatud",
+      "importSuccess": "Imporditud {count} lugu",
+      "importPartial": "Imporditud {imported} lugu ({skipped} vahele jäetud, {failed} ebaõnnestus)",
+      "importAllDuplicates": "Kõik lood on juba teie esitusloendis"
+    },
+    "booth": {
+      "joinedWaitlist": "Liitusite ootenimekirjaga",
+      "leftWaitlist": "Sa lahkusid ootejärjekorrast",
+      "nowPlaying": "Sa mängimas nüüd!",
+      "skipped": "Sinu kord jäeti vahele"
+    },
+    "vote": {
+      "grabbed": "Lugu lisati teie esitusloendisse"
+    },
+    "connection": {
+      "connected": "Serveriga ühendatud",
+      "disconnected": "Serveriga lahti ühendatud",
+      "reconnecting": "Ühendamine uuesti...",
+      "reconnected": "Serveriga taasühendatud"
+    },
+    "clipboard": {
+      "copied": "Lõikelauale kopeeritud"
+    },
+    "friends": {
+      "requestReceived": "Sõbrakutse kasutajalt {username}",
+      "requestReceivedTitle": "Sõbrakutse",
+      "requestCancelled": "{username} tühistas oma sõbrakutse",
+      "accepted": "Sina ja {kasutajanimi} olete nüüd sõbrad!",
+      "acceptedTitle": "Nüüd sõbrad",
+      "removed": "{username} eemaldas su sõprade hulgast"
+    }
+  },
+  "rooms": {
+    "create": {
+      "title": "Loo ruum",
+      "submit": "Loo ruum",
+      "name": "Toa nimi",
+      "namePlaceholder": "Minu vinge tuba",
+      "slug": "Toa URL",
+      "slugPlaceholder": "minu-vinge-tuba",
+      "slugHint": "See on teie toa URL. Ainult väiketähed, numbrid ja sidekriipsud.",
+      "description": "Kirjeldus",
+      "descriptionPlaceholder": "Mis on sinu tuba? Millist muusikat sa mängima hakkad?",
+      "private": "Privaatne tuba",
+      "privateDesc": "Ainult kutsutud kasutajad saavad liituda",
+      "nsfw": "Töökohale mittevaadatav sisu",
+      "nsfwDesc": "Tuba võib sisaldada täiskasvanutele mõeldud sisu",
+      "errors": {
+        "nameTooShort": "Nimi peab olema vähemalt 3 tähemärki pikk",
+        "nameTooLong": "Nimi peab olema kuni 50 tähemärki pikk",
+        "slugTooShort": "URL peab olema vähemalt 3 tähemärki pikk",
+        "slugTooLong": "URL peab olema kuni 32 tähemärki pikk",
+        "slugInvalid": "URL peab algama ja lõppema tähe või numbriga",
+        "failed": "Ruumi loomine ebaõnnestus. Palun proovige uuesti."
+      }
+    },
+    "leave": {
+      "title": "Kas lahkuda ruumist?",
+      "message": "Kas oled kindel, et soovid {roomName}-st lahkuda?",
+      "joining": "Sa liitud ruumiga {roomName}.",
+      "confirm": "Lahku ruumist"
+    }
+  },
+  "nav": {
+    "home": "Avaleht",
+    "settings": "Seaded",
+    "profile": "Profiil",
+    "about": "Teave",
+    "privacy": "Privaatsus",
+    "terms": "Tingimused",
+    "discord": "Ebakõla",
+    "haveAccount": "Kas teil on konto?"
+  },
+  "sidebar": {
+    "dashboard": "Armatuurlaud",
+    "explore": "Avasta",
+    "playlists": "Esitusloendid",
+    "shop": "Avatari pood",
+    "settings": "Seaded",
+    "logout": "Logi välja",
+    "expand": "Laienda külgriba",
+    "friends": "Sõbrad",
+    "room": {
+      "stage": "Lava",
+      "waitlist": "Ootenimekiri",
+      "users": "Kasutajad",
+      "history": "Ajalugu",
+      "settings": "Toa seaded",
+      "moderation": "Modereerimine"
+    }
+  },
+  "consent": {
+    "message": "Kasutame küpsiseid teie kogemuse parandamiseks. Selle saidi edasikülastusega nõustute meie küpsiste kasutamisega.",
+    "accept": "Nõustu",
+    "decline": "Keeldumine",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Teenusetingimused",
+    "cookies": "Küpsiste poliitika"
+  },
+  "footer": {
+    "tagline": "Koos on muusika parem. Liitu tubadega, jaga lugusid ja suhtle muusikasõpradega üle maailma.",
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub"
+    },
+    "sections": {
+      "product": {
+        "title": "Toode",
+        "rooms": "Sirvi tube",
+        "features": "Funktsioonid",
+        "pricing": "Hinnakujundus",
+        "download": "Laadi alla"
+      },
+      "company": {
+        "title": "Ettevõte",
+        "blog": "Blogi",
+        "careers": "Karjäärivõimalused",
+        "contact": "Kontakt"
+      },
+      "resources": {
+        "title": "Ressursid",
+        "help": "Abikeskus",
+        "docs": "Dokumentatsioon",
+        "status": "Süsteemi olek"
+      },
+      "legal": {
+        "title": "Õiguslik",
+        "cookies": "Küpsiste poliitika",
+        "licenses": "Litsentsid"
+      }
+    }
+  },
+  "settings": {
+    "tabs": {
+      "account": "Konto",
+      "audio": "Heli",
+      "notifications": "Teavitused",
+      "appearance": "Välimus",
+      "subscription": "Tellimus"
+    },
+    "account": {
+      "title": "Konto seaded",
+      "username": "Kasutajanimi",
+      "usernameHint": "Kasutajanime ei saa muuta",
+      "displayName": "Kuvatav nimi",
+      "displayNamePlaceholder": "Kuidas me peaksime teid kutsuma?",
+      "email": "E-post",
+      "emailHint": "E-posti muutmiseks võtke ühendust toega",
+      "discord": "Ebakõla",
+      "discordHint": "Discordiga sisselogimiseks ühenda oma Discordi konto.",
+      "discordConnect": "Ühenda Ebakõla",
+      "discordConnected": "Ühendatud",
+      "discordDisconnect": "Katkesta ühendus",
+      "bio": "Tutvustus",
+      "bioPlaceholder": "Räägi meile endast...",
+      "saveSuccess": "Profiili värskendamine õnnestus",
+      "logout": "Logi Välja",
+      "logoutConfirm": "Kas oled kindel, et soovid välja logida?"
+    },
+    "audio": {
+      "title": "Heliseaded",
+      "masterVolume": "Põhihelitugevus",
+      "quality": "Heli kvaliteet",
+      "qualityLow": "Madal (128 kbps)",
+      "qualityMedium": "Keskmine (256 kbps)",
+      "qualityHigh": "Kõrge (320 kbps)",
+      "autoPlay": "Esita automaatselt tubadega liitumisel"
+    },
+    "notifications": {
+      "title": "Teavitusseaded",
+      "chatMentions": "Vestluse mainimised",
+      "mentionSound": "Esita mainimisel heli",
+      "songGrabs": "Laulu haarab",
+      "waitlistUpdates": "Ootejärjekorra värskendused"
+    },
+    "appearance": {
+      "title": "Välimus",
+      "showTimestamps": "Näita vestluse ajatempleid",
+      "enlargedVideo": "Vaikimisi suurendatud videopleier",
+      "language": "Keel"
+    },
+    "subscription": {
+      "title": "Borealise Pluss",
+      "activePlan": "Aktiivne plaan",
+      "noPlan": "Aktiivset tellimust pole",
+      "monthly": "Igakuine",
+      "yearly": "Aastas",
+      "yearlyBadge": "Säästa 20%",
+      "renewsOn": "Uueneb {date}",
+      "cancelsOn": "Tühistab {date}",
+      "upgradeTitle": "Borealise Pluss",
+      "upgradeSubtitle": "Ava eksklusiivsed avatarid, toetajamärk ja palju muud.",
+      "choosePlan": "Valige pakett",
+      "paymentTitle": "Makseandmed",
+      "payButton": "Telli",
+      "manageButton": "Arvelduse haldamine",
+      "backToPlan": "Tagasi",
+      "perMonth": "/ kuu",
+      "perYear": "/ aasta",
+      "loadError": "Tellimuse oleku laadimine ebaõnnestus.",
+      "intentError": "Makse algatamine ebaõnnestus. Palun proovige uuesti.",
+      "paymentError": "Makse ebaõnnestus. Palun kontrollige oma andmeid.",
+      "portalError": "Arveldusportaali avamine ebaõnnestus. Palun proovige uuesti.",
+      "perks": {
+        "avatars": "Eksklusiivsed premiuum avatarid",
+        "badge": "Toetajamärk teie profiilil",
+        "future": "Varajane juurdepääs uutele funktsioonidele"
+      }
+    }
+  },
+  "stage": {
+    "waitingForDJ": "Ootan DJ-d...",
+    "enlargeVideo": "Suurenda videot",
+    "minimizeVideo": "Minimeeri video"
+  },
+  "chat": {
+    "title": "Reaalajas vestlus",
+    "placeholder": "Saada sõnum...",
+    "mentionUser": "Maini kasutajat",
+    "tabChat": "Vestlus",
+    "tabWaitlist": "Ootenimekiri",
+    "tabUsers": "Kasutajad",
+    "empty": "Pole veel sõnumeid. Tervitage!",
+    "waitlistEmpty": "Ootejärjekord on tühi.",
+    "usersEmpty": "Kedagi teist pole veel siin.",
+    "nowPlaying": "Praegu mängimas",
+    "searchEmoji": "Otsi emotikone...",
+    "paused": "Vestlus on peatatud – jätkamiseks kerige allapoole",
+    "muted": "Sa oled vaigistatud",
+    "mutedUntil": "Vaigistus tühistatud {time} pärast"
+  },
+  "dashboard": {
+    "welcome": "Tere tulemast tagasi,",
+    "subtitle": "Kas oled valmis muusikat avastama?",
+    "exploreRooms": "Avasta ruume",
+    "createRoom": "Loo ruum",
+    "featuredRooms": "Soovitatud toad",
+    "seeAll": "Vaata kõiki",
+    "yourRooms": "Teie toad",
+    "noRooms": "Sa pole veel ühegi toaga liitunud",
+    "findRooms": "Leia ruume, millega liituda",
+    "recentActivity": "Hiljutine tegevus",
+    "listening": "kuulamine"
+  },
+  "explore": {
+    "searchPlaceholder": "Otsi ruume...",
+    "noRoomsFound": "Tubasid ei leitud",
+    "tryDifferentSearch": "Proovige teistsugust otsingut või filtrit",
+    "live": "OTSE",
+    "filters": {
+      "all": "Kõik",
+      "electronic": "Elektrooniline",
+      "chill": "Lõõgastus",
+      "hiphop": "Hiphop",
+      "rock": "rokk",
+      "pop": "Pop",
+      "lofi": "Lo-Fi",
+      "music": "Muusika"
+    }
+  },
+  "playlists": {
+    "title": "Minu esitusloendid",
+    "newPlaylist": "Uus esitusloend",
+    "loading": "Esitusloendite laadimine...",
+    "noPlaylists": "Esitusloendeid pole veel",
+    "createFirst": "Muusika lisamise alustamiseks looge oma esimene esitusloend",
+    "selectPlaylist": "Valige esitusloend selle sisu vaatamiseks",
+    "songCount": "{count} laulu",
+    "active": "Aktiivne",
+    "setActive": "Määra aktiivseks",
+    "shuffle": "Segamine",
+    "addSongs": "Lisa laule",
+    "import": "Importima",
+    "searchPlaceholder": "Otsi YouTube'ist või SoundCloudist...",
+    "searching": "Otsin...",
+    "noSongs": "Selles esitusloendis pole lugusid",
+    "clickAddSongs": "Muusika otsimiseks ja lisamiseks klõpsake nuppu \"Lisa lugusid\".",
+    "noResults": "Tulemusi ei leitud",
+    "unknownArtist": "Tundmatu kunstnik",
+    "createPlaylist": "Loo esitusloend",
+    "playlistName": "Esitusloendi nimi",
+    "playlistNamePlaceholder": "Minu vinge esitusloend",
+    "create": "Loo",
+    "rename": "Nimeta ümber",
+    "renamePlaylist": "Nimeta esitusloend ümber",
+    "newName": "Uus nimi",
+    "confirmDelete": "Kustutada \"{name}\"? Seda ei saa tagasi võtta."
+  },
+  "player": {
+    "noPlaylist": "Esitusloendit pole",
+    "noTracksQueued": "Ühtegi lugu pole järjekorras",
+    "next": "Järgmine:",
+    "joinWaitlist": "Liitu ootenimekirjaga",
+    "leaveWaitlist": "Lahku ootenimekirjast",
+    "skip": "Jäta vahele",
+    "isPlaying": "On Mängimas:",
+    "estimatedWait": "Eeldatav ooteaeg: {time}"
+  },
+  "home": {
+    "hero": {
+      "title": "Muusika on parem",
+      "titleBreak": "koos.",
+      "subtitle": "Liitu tubadega, tegutse kordamööda DJ-na, avasta uut muusikat ja suhtle inimestega, kellel on sinuga sama maitse. Sotsiaalne kuulamiskogemus, uuestisünd.",
+      "cta": "Alusta tasuta",
+      "learnMore": "Lisateave"
+    },
+    "features": {
+      "title": "Mäletad aega, kui muusika oli sotsiaalne?",
+      "subtitle": "Borealise toob tagasi jagatud muusikaelamuste võlu. Looge või liituge tubadega, mängige kordamööda lugusid, vestelge teiste muusikasõpradega ja avastage oma järgmine lemmiklugu läbi tõelise inimliku suhtluse.",
+      "rooms": {
+        "title": "Ühiskondlikud ruumid",
+        "description": "Liitu temaatiliste tubadega või loo oma. Alates indie-rokist kuni lo-fi rütmideni – leia oma hõim ja jaga muusikat, mis sulle meeldib."
+      },
+      "dj": {
+        "title": "Võtke DJ-pult",
+        "description": "Seisa järjekorras, haara plaadiklipid ja mängi kogu ruumile. Saa oma publikult reaalajas reaktsioone ulgumise ja mehh'i saatel."
+      },
+      "chat": {
+        "title": "Reaalajas vestlus",
+        "description": "Reageeri lugudele reaalajas, jaga oma mõtteid, leia sõpru ja loo püsivaid sidemeid muusika ümber."
+      }
+    },
+    "howItWorks": {
+      "title": "Kuidas see toimib",
+      "subtitle": "Alustamine on lihtne. Liitu kogukonnaga sekunditega.",
+      "step1": {
+        "title": "Loo konto",
+        "description": "Registreeru tasuta ja kohanda oma avatari."
+      },
+      "step2": {
+        "title": "Leia tuba",
+        "description": "Sirvi ruume žanri järgi või loo oma kogukond."
+      },
+      "step3": {
+        "title": "Loo esitusloendeid",
+        "description": "Lisa lugusid YouTube'ist ja SoundCloudist oma esitusloendisse."
+      },
+      "step4": {
+        "title": "Alusta DJ-na tegutsemist",
+        "description": "Liitu ootenimekirjaga, mängi oma lugusid ja teeni tunnustust."
+      }
+    },
+    "why": {
+      "title": "Kogukonna jaoks loodud,",
+      "titleBreak": "kogukonna poolt.",
+      "text1": "Me kasvasime üles sellistel platvormidel nagu plug.dj ja turntable.fm. Kui need suleti, kaotasime enamat kui lihtsalt veebisaidi – kaotasime oma kogukonnad, sõprussuhted ja ühised muusikalised teekonnad.",
+      "text2": "Borealise on meie vastus. Kaasaegne ja usaldusväärne platvorm, mis on loodud uusima tehnoloogiaga, et tagada võrgus püsimine. Reklaamid ei sega su meeleolu. Algoritmid ei otsusta, mida sa kuulad. Ainult sina, su sõbrad ja muusika.",
+      "features": {
+        "free": "Tasuta kasutamine, igavesti",
+        "integration": "YouTube'i ja SoundCloudi integratsioon",
+        "avatars": "Kohandatavad avatarid ja profiilid",
+        "mobile": "Mobiilisõbralik disain"
+      },
+      "preview": "Eelvaade tuleb peagi"
+    },
+    "cta": {
+      "title": "Kas oled valmis muusikat taasavastama?",
+      "subtitle": "Liitu tuhandete muusikasõpradega, kes juba jagavad oma lemmiklugusid. Sinu järgmine lemmiklugu ootab.",
+      "button": "Liitu Borealise'iga juba täna"
+    },
+    "footer": {
+      "copyright": "Borealise. Kõik õigused kaitstud."
+    }
+  },
+  "shop": {
+    "title": "Avatari pood",
+    "level": "Tase",
+    "free": "Tasuta",
+    "unlocked": "Lukustamata",
+    "equipped": "Varustatud",
+    "clickToUnlock": "Klõpsake avamiseks",
+    "levelRequired": "Tase {level} on nõutav",
+    "subscriptionRequired": "Tellimus on vajalik",
+    "freeAvatars": "Tasuta avatarid",
+    "freeAvatarsDesc": "Need avatarid on kõigile tasuta saadaval.",
+    "premiumAvatars": "Premiuum avatarid",
+    "premiumAvatarsDesc": "Tellijaile on saadaval eksklusiivsed avatarid.",
+    "unlockTitle": "Ava avatari",
+    "unlockLevelDesc": "Ava {id}, jõudes tasemele {level}.",
+    "unlockSubDesc": "Ava {id} aktiivse tellimusega.",
+    "unlock": "Ava",
+    "unlocking": "Avamine...",
+    "tabs": {
+      "free": "Tasuta",
+      "level": "Tase",
+      "subscription": "Tellimus"
+    }
+  },
+  "roomHistory": {
+    "title": "Laulu ajalugu",
+    "subtitle": "Selles toas mängitud laulud",
+    "empty": "Ühtegi lugu pole veel mängitud.",
+    "woots": "{count} Meeldimised",
+    "mehs": "{count} Ei meeldi",
+    "grabs": "{count} haarab",
+    "skipped": "Vahele jäetud",
+    "playedBy": "Mänginud Poolt",
+    "loadError": "Ajaloo laadimine ebaõnnestus.",
+    "retry": "Proovi uuesti "
+  },
+  "roomSettings": {
+    "title": "Toa seaded",
+    "notHost": "Ainult võõrustaja või kaasvõõrustaja saab toa seadeid muuta.",
+    "sectionGeneral": "Üldine",
+    "sectionAccess": "Juurdepääs",
+    "sectionWaitlist": "Ootenimekiri",
+    "fieldName": "Toa nimi",
+    "fieldNamePlaceholder": "Minu vinge tuba",
+    "fieldDescription": "Kirjeldus",
+    "fieldDescriptionPlaceholder": "Mis su tuba jutt on?",
+    "fieldWelcome": "Tervitussõnum",
+    "fieldWelcomePlaceholder": "Tere tulemast tuppa!",
+    "fieldWelcomeHint": "Kuvatakse kasutajatele ruumiga liitumisel.",
+    "fieldMinChatLevel": "Minimaalne vestlustase",
+    "fieldMinChatLevelHint": "Sellest tasemest madalamad kasutajad ei saa sõnumeid saata. Kõigile lubamiseks määrake väärtuseks 0.",
+    "fieldPrivate": "Privaatne tuba",
+    "fieldPrivateDesc": "Liituda saavad ainult kutsutud kasutajad.",
+    "fieldNsfw": "Töökohale mittevaadatav sisu",
+    "fieldNsfwDesc": "Tuba võib sisaldada täiskasvanutele mõeldud sisu.",
+    "fieldWaitlistLocked": "Lukusta ootenimekiri",
+    "fieldWaitlistLockedDesc": "Takistada uute kasutajate liitumist DJ-järjekorraga.",
+    "fieldWaitlistCycle": "Tsükli ootenimekiri",
+    "fieldWaitlistCycleDesc": "DJ-d liigutatakse pärast oma korda järjekorra lõppu.",
+    "saveSuccess": "Ruumi seaded salvestatud."
+  },
+  "roles": {
+    "host": "Võõrustaja",
+    "cohost": "Kaaskorraldaja",
+    "manager": "Juht",
+    "bouncer": "väljaviskaja",
+    "residentDJ": "Püsidiskor",
+    "user": "Kasutaja"
+  },
+  "roomModeration": {
+    "title": "Modereerimine",
+    "notStaff": "Ainult töötajatel on juurdepääs modereerimisvahenditele.",
+    "sectionBans": "Keelud",
+    "sectionStaff": "Personal ja rollid",
+    "sectionUsers": "Kasutajad",
+    "bansEmpty": "Hetkel pole ühtegi kasutajat keelatud.",
+    "staffEmpty": "Töötajaid veel pole.",
+    "usersEmpty": "Ruumis pole kasutajaid.",
+    "unban": "keelu eemaldamine",
+    "unbanning": "Keelustamine tühistatakse...",
+    "ban": "Keeld",
+    "banning": "Keelustamine...",
+    "kick": "Löök",
+    "kicking": "Jalaga löömine...",
+    "mute": "Vaigista",
+    "muting": "Vaigistamine...",
+    "unmute": "vaigistus eemaldatakse",
+    "unmuteAction": "vaigistus eemaldatakse",
+    "unmuting": "Vaigistuse tühistamine...",
+    "setRole": "Määra roll",
+    "roleChanged": "Rolli uuendati.",
+    "banSuccess": "{username} on Keelatud.",
+    "unbanSuccess": "{username} keeld tühistati.",
+    "kickSuccess": "{username} on välja visatud",
+    "muteSuccess": "{username} on vaigistatud.",
+    "unmuteSuccess": "{username} on vaigistuse tühistatud.",
+    "confirmBan": "Kas keelata {kasutajanimi}?",
+    "confirmKick": "Kas {kasutajanimi} tuleb välja visata?",
+    "confirmMute": "Kas vaigistada {kasutajanimi}?",
+    "confirmUnban": "Kas tühistada kasutajanime {username} keeld?",
+    "confirmUnmute": "Kas tühistada kasutajanime {username} vaigistus?",
+    "reasonLabel": "Põhjus (valikuline)",
+    "reasonPlaceholder": "Reeglite rikkumine, rämpspost...",
+    "durationLabel": "Kestus (minutid)",
+    "durationHint": "Püsiva toimingu puhul jäta tühjaks.",
+    "permanent": "Püsiv",
+    "expires": "Aegub {kuupäev}",
+    "bannedBy": "Kasutaja {username} keelas selle ära",
+    "mutedLabel": "Vaigistatud",
+    "loadError": "Modereerimisandmete laadimine ebaõnnestus.",
+    "retry": "Proovi uuesti",
+    "tabBans": "Keelud",
+    "tabStaff": "Personal",
+    "tabUsers": "Kasutajad",
+    "selectRole": "Valige roll",
+    "isMuted": "Vaigistatud",
+    "skip": "Jäta vahele",
+    "skipSuccess": "Praegune DJ on vahele jäetud."
+  },
+  "globalRoles": {
+    "owner": "Omanik",
+    "admin": "Administraator",
+    "moderator": "Moderaator"
+  },
+  "userCard": {
+    "viewProfile": "Vaata profiili",
+    "mention": "Mainimine",
+    "addFriend": "Lisa sõber",
+    "cancelRequest": "Tühista taotlus",
+    "acceptRequest": "Nõustu taotlusega",
+    "removeFriend": "Eemalda sõber",
+    "currentlyDJing": "Praegu DJ-na",
+    "newSubscriber": "Tellija",
+    "subscriber1Month": "Tellija 1 kuuks",
+    "subscriberNMonths": "Tellija {n} kuud"
+  },
+  "friends": {
+    "title": "Sõbrad",
+    "search": "Otsi kasutajanime järgi...",
+    "noFriends": "Pole veel sõpru",
+    "noFriendsHint": "Otsi kasutajaid ja saada neile sõbrakutse!",
+    "pendingRequests": "Ootel olevad taotlused",
+    "pendingSent": "Saadetud päringud",
+    "noPending": "Ootel taotlusi pole",
+    "accept": "Nõustu",
+    "decline": "Keeldumine",
+    "cancel": "Tühista",
+    "remove": "Eemalda",
+    "addFriend": "Lisa sõber",
+    "searchPlaceholder": "Leia kasutaja kasutajanime järgi...",
+    "notFound": "Kasutajat ei leitud",
+    "alreadyFriends": "Juba sõbrad",
+    "requestSent": "Päring saadetud",
+    "requestReceived": "Tahab olla su sõber"
+  },
+  "ejected": {
+    "kickedTitle": "Sind visati välja",
+    "bannedTitle": "Sind keelati",
+    "kickedMessage": "Teid eemaldati toast {roomName}.",
+    "bannedMessage": "Sul on keelatud tuba {roomName}.",
+    "reason": "põhjus: {reason}",
+    "by": "poolt {actor}",
+    "backToDashboard": "Tagasi Juhtpaneelile"
+  }
+}
